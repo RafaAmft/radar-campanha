@@ -2,6 +2,8 @@
 
 Plataforma de alta performance para salas de situação, campanhas e mobilização social, inspirada na dinâmica do [Radar da Virada](https://radardavirada.pages.dev/).
 
+🌐 **Deploy ao vivo:** [https://radar-campanha.pages.dev/](https://radar-campanha.pages.dev/)
+
 O projeto foi construído em **Next.js 15 (App Router)** com **Tailwind CSS**, **TypeScript** e **Lucide Icons**, com foco total em experiência mobile e compartilhamento instantâneo via WhatsApp.
 
 ---
