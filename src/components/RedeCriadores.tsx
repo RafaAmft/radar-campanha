@@ -1,10 +1,16 @@
 'use client';
 
 import React from 'react';
+import liveFeeds from '@/data/liveFeeds.json';
 import { MOCK_CANAIS, METADATA_GERAL } from '@/data/mockData';
-import { Users, Video, Radio, ExternalLink, PlayCircle } from 'lucide-react';
+import { Users, Video, Radio, ExternalLink, PlayCircle, Wifi } from 'lucide-react';
+import { CanalItem } from '@/types';
 
 export default function RedeCriadores() {
+  const canais: CanalItem[] = (liveFeeds?.canais && liveFeeds.canais.length > 0)
+    ? (liveFeeds.canais as CanalItem[])
+    : MOCK_CANAIS;
+
   return (
     <section id="canais" className="py-12 bg-neutral-900 text-white border-t border-neutral-800 scroll-mt-14">
       <div className="max-w-6xl mx-auto px-4">
@@ -13,13 +19,13 @@ export default function RedeCriadores() {
           <div>
             <div className="inline-flex items-center gap-1.5 text-purple-400 font-bold text-xs uppercase tracking-wider mb-2">
               <Users className="w-4 h-4 text-purple-400" />
-              <span>Ecossistema de Comunicação</span>
+              <span>Monitoramento em Tempo Real</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-black tracking-tight text-white flex items-center gap-2">
               Rede de Criadores & Mídia Parceira
             </h2>
             <p className="text-sm text-neutral-400 mt-1 max-w-2xl">
-              Acompanhe os canais independentes que furam a bolha. Fortaleça o alcance assistindo, curtindo e compartilhando os conteúdos mais recentes.
+              Frequência de postagens monitorada ao vivo diretamente via YouTube RSS. Fortaleça o alcance assistindo e compartilhando os conteúdos frescos.
             </p>
           </div>
 
@@ -41,8 +47,8 @@ export default function RedeCriadores() {
         </div>
 
         {/* Creator Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {MOCK_CANAIS.map((canal) => {
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5">
+          {canais.map((canal) => {
             const is24h = canal.status === '24h';
             const is72h = canal.status === '72h';
 
@@ -73,11 +79,18 @@ export default function RedeCriadores() {
                         />
                       </div>
                       <div>
-                        <h3 className="font-bold text-sm text-white hover:text-purple-300 transition-colors">
-                          {canal.nome}
-                        </h3>
+                        <div className="flex items-center gap-2">
+                          <h3 className="font-bold text-sm text-white hover:text-purple-300 transition-colors">
+                            {canal.nome}
+                          </h3>
+                          {is24h && (
+                            <span className="text-[10px] bg-emerald-500/10 text-emerald-400 font-bold px-1.5 py-0.5 rounded border border-emerald-500/30">
+                              Novo
+                            </span>
+                          )}
+                        </div>
                         <span className="text-xs text-neutral-400 block font-medium">
-                          {canal.seguidores} seguidores • {canal.plataforma.toUpperCase()}
+                          {canal.seguidores} inscritos • {canal.plataforma.toUpperCase()}
                         </span>
                       </div>
                     </div>
@@ -98,7 +111,7 @@ export default function RedeCriadores() {
                     <div className="flex items-center justify-between text-[11px] mb-1.5">
                       <span className="text-neutral-400 flex items-center gap-1 font-semibold">
                         <Video className="w-3 h-3 text-purple-400" />
-                        Último Conteúdo
+                        Último Vídeo Publicado
                       </span>
                       <span
                         className={`font-semibold ${
@@ -128,7 +141,7 @@ export default function RedeCriadores() {
                     className="w-full flex items-center justify-center gap-2 py-2 px-3 rounded-xl text-xs font-bold bg-purple-600/10 hover:bg-purple-600 text-purple-300 hover:text-white transition-colors border border-purple-500/20"
                   >
                     <PlayCircle className="w-3.5 h-3.5" />
-                    <span>Assistir e Engajar</span>
+                    <span>Assistir no YouTube</span>
                   </a>
                 </div>
               </div>

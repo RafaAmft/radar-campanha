@@ -1,10 +1,16 @@
 'use client';
 
 import React from 'react';
+import liveFeeds from '@/data/liveFeeds.json';
 import { MOCK_NOTICIAS, METADATA_GERAL } from '@/data/mockData';
-import { Newspaper, ExternalLink, Clock, AlertCircle } from 'lucide-react';
+import { Newspaper, ExternalLink, Clock, AlertCircle, Wifi } from 'lucide-react';
+import { NoticiaItem } from '@/types';
 
 export default function PainelAgora() {
+  const noticias: NoticiaItem[] = (liveFeeds?.noticias && liveFeeds.noticias.length > 0)
+    ? (liveFeeds.noticias as NoticiaItem[])
+    : MOCK_NOTICIAS;
+
   return (
     <section id="agora" className="py-12 bg-neutral-950 text-white border-t border-neutral-800 scroll-mt-14">
       <div className="max-w-6xl mx-auto px-4">
@@ -13,25 +19,31 @@ export default function PainelAgora() {
           <div>
             <div className="inline-flex items-center gap-1.5 text-blue-400 font-bold text-xs uppercase tracking-wider mb-2">
               <Newspaper className="w-4 h-4 text-blue-400" />
-              <span>Monitoramento de Mídia</span>
+              <span>Monitoramento em Tempo Real</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-black tracking-tight text-white flex items-center gap-2">
               Painel da Imprensa & Agora
             </h2>
             <p className="text-sm text-neutral-400 mt-1 max-w-2xl">
-              O que os principais portais e agências estão pautando nas últimas 24 horas. Acompanhe a repercussão da campanha em tempo real.
+              Notícias reais capturadas automaticamente via RSS dos principais portais de notícias e agências do país.
             </p>
           </div>
 
-          <div className="text-xs text-neutral-400 bg-neutral-900 border border-neutral-800 rounded-lg px-3 py-2 flex items-center gap-2">
-            <Clock className="w-4 h-4 text-blue-400 shrink-0" />
-            <span>Monitorando {METADATA_GERAL.totalPortais} portais de notícias</span>
+          <div className="flex flex-wrap items-center gap-2 text-xs">
+            <div className="text-neutral-400 bg-neutral-900 border border-neutral-800 rounded-lg px-3 py-2 flex items-center gap-2">
+              <Wifi className="w-4 h-4 text-emerald-400 animate-pulse shrink-0" />
+              <span>Feed RSS Ativo</span>
+            </div>
+            <div className="text-neutral-400 bg-neutral-900 border border-neutral-800 rounded-lg px-3 py-2 flex items-center gap-2">
+              <Clock className="w-4 h-4 text-blue-400 shrink-0" />
+              <span>{liveFeeds?.ultimaAtualizacaoFormatada || METADATA_GERAL.ultimaAtualizacao}</span>
+            </div>
           </div>
         </div>
 
         {/* News Feed Stream */}
         <div className="space-y-3">
-          {MOCK_NOTICIAS.map((noticia) => (
+          {noticias.map((noticia) => (
             <a
               key={noticia.id}
               href={noticia.url}

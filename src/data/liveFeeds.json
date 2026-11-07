@@ -1,0 +1,118 @@
+{
+  "geradoEm": "2026-11-07T13:27:50.436Z",
+  "ultimaAtualizacaoFormatada": "Hoje às 10:27",
+  "noticias": [
+    {
+      "id": "news-real-1",
+      "hora": "07:15",
+      "portal": "Poder360",
+      "titulo": "Santiago Peña é transferido para base militar",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcVl5YTdrMmdxbW1Na3hzTjZsNjlqZFAtT3czeDFQVnhSN1ZRRnpzZ3o5bDF0RUVFOGhBeElacng4emVLRm9KTmZEZC1HMms5Z19oWEt5Z2xucUZxY193dldHTmNja2NDbHNNaDVEdWtSNE5aMmdOS3poZjBERlVIT1d3OGdkNnJfOXhwLVBTdWFwX2N3MDY1ZlRn?oc=5",
+      "urgente": true,
+      "categoria": "Política"
+    },
+    {
+      "id": "news-real-2",
+      "hora": "14:39",
+      "portal": "JOTA Info",
+      "titulo": "Desembargadora que autorizou bets a funcionarem compartilhou posts contra Lula e em defesa de Bolsonaro",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNODFBS2FuMEZMdzNzUEVVM1pTWGtSSU8yZUx1emJESmNETnhzTVh1ZzRsS1NvNUpMNEh1bkx0X0RtWGFhRkEydFBJUE9wVng2ZGVyOVhWMkYzdk9EaFBUSGItcXhHOXk5a0V1emhJcVBOR3lpZGFLOTYzaWhxZnpqRHduRExpd0VCNUN6OFh5RGRpOWtlN0hYbU1lX3hqemJPWmtoSFgtOGlObFk3V0RiM3V5ZC1YUUpManJVWmhSMFJKTUpiVXg0ZWp2OXRGUQ?oc=5",
+      "urgente": false,
+      "categoria": "Política"
+    },
+    {
+      "id": "news-real-3",
+      "hora": "08:04",
+      "portal": "Revista Fórum",
+      "titulo": "Luciano Hang, o \"véio da Havan\", defende Santiago Peña, que sofreu impeachment e foi preso no Paraguai",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWUJPMDJLZU5uSVNCY3lZb3ktanRrZWUxNkw0LVZ0YnZFVndEVXhobkREVGdGWENWRWtsX09henNBejkxZWFHckk4NU5QSDVIYnJieUIzMjJadl9HQWotTzN2akxXdFltRm9uV0Z4ZThCQ25EblFlSV9UWGt5dXhPYi1B?oc=5",
+      "urgente": false,
+      "categoria": "Política"
+    },
+    {
+      "id": "news-real-4",
+      "hora": "15:17",
+      "portal": "CNN Brasil",
+      "titulo": "\"Quem não quiser fazer, cai fora\", diz Lula sobre entregas do governo",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR05wZnlkRVhQMEIzNUVjZ09la2pyakE3cmV0NWQ4VUc5Z0V0RmZpN2NzX2ViY1BaMXM3aWtXSzM2eEwxeUpIMi1JaE1SOE91RlBqWnBzcGF3TW80OGZ5UUJjOC13VlNNRXhyaXVySnlkZ2FibWVPY1MtNmJhMGRHbXlOWHZ0UnlrcXFjZGF1UFVpRFVSYktqMGFObUNsdGRhU0x5QzJrVQ?oc=5",
+      "urgente": false,
+      "categoria": "Política"
+    },
+    {
+      "id": "news-real-5",
+      "hora": "18:31",
+      "portal": "Partido dos Trabalhadores",
+      "titulo": "Por médicos mais preparados, Governo Lula exige aprovação no ‘OAB da Medicina’",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVk45aGVsNGpFYlZua2JCUlZBc0hlM19jcTJfVkZTTkFXa040NnQ3dThaQ0VKVmwwc0ZkbERNMzB2VE9vWFJsNmx0dGVVZG1OUzJvS0pzS0dCVFZWWUN4VHFOU09aSTAtM1Q5anZ1c1dPMmNUd1dhTXNqWExzSTZ0OW14dGs4VnhTQ1hnbHFGeFk3TWN0RDRrLXZn0gGiAUFVX3lxTE1GRmk2alB1SGxUSXhCSWFfQlByTDZQbklPWXNfTUVmaVV3MHdDek4tU296bW1wRjhmcFFOSnVoVkY2OWNCaV83THQ0OFdVdGZ0d3dsSUZMNHh3RUhETE1UUmgwYjQyX3h3WGJvN3FCVnFlalloNHFIZDZITF9Dc2RsaTM0NEpKRHg1V2xDWDRKSXVRN1ZrVXdPbHY1Vkhta0tidw?oc=5",
+      "urgente": false,
+      "categoria": "Política"
+    },
+    {
+      "id": "news-real-6",
+      "hora": "16:18",
+      "portal": "Estadão",
+      "titulo": "‘Taxem os pobres’: filha do presidente do Paraguai usa camiseta com pedido e é alvo de críticas",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPX0V1OWVtbnhPOXZTTERlNExvTjlOcDgzVURDRG9ONjNwbmpHVnpLd0xPMVA5Q3dKZU9ISkRPcVQ1Wl92ckh6c2R0eFB1OEk2SnhhTUFyeGV6T0NEUmZvdVhpeHZuQ2Jza3ZrWDRISjUzb0twUy0ySHZ4QTZ1M1FnUnZHT0NNbW9kb3N1c0hqRnBaY1hZTHNWNklTWnBoTFBFOTltTNIBqgFBVV95cUxPOFZtWUdDSGZDM1hhM3VzM3lIdXhWUXEwWmNjaFZkaU9mMnVqREs4ZjNkM1RHckFZS3pxdFU0dDlPYU9FRThyWkxEaFlPSmJ6emRwczFuRC1vMmo1YVlrejBrZ2w0V2VWZzFMOHB0YlBlalNkRGlDU19aMHJPeW9yNFdOQWJKZHRZZWVYek1ESHhuRHRLU18tQy1kWGsyeWxmSTNvbzF4SnE2UQ?oc=5",
+      "urgente": false,
+      "categoria": "Política"
+    }
+  ],
+  "canais": [
+    {
+      "id": "ch-icl",
+      "nome": "ICL Notícias",
+      "avatar": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=200&q=80",
+      "seguidores": "1.8M",
+      "plataforma": "youtube",
+      "url": "https://www.youtube.com/@ICLNoticias",
+      "status": "24h",
+      "ultimoVideo": {
+        "titulo": "ICL URGENTE COM RODRIGO VIANNA E ICL NOTÍCIAS 2 - 06/NOVEMBRO ÀS 17h",
+        "tempoAtras": "Postou há 15 horas",
+        "link": "https://www.youtube.com/watch?v=46GbkBhWMbA"
+      }
+    },
+    {
+      "id": "ch-cartacapital",
+      "nome": "CartaCapital",
+      "avatar": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=200&q=80",
+      "seguidores": "920k",
+      "plataforma": "youtube",
+      "url": "https://www.youtube.com/@cartacapital",
+      "status": "24h",
+      "ultimoVideo": {
+        "titulo": "Candidaturas históricas vencem o trumpismo | De Cabeça para Baixo, com Jamil Chade #64",
+        "tempoAtras": "Postou há 27 min",
+        "link": "https://www.youtube.com/shorts/BT0MmRipb1A"
+      }
+    },
+    {
+      "id": "ch-cnnbrasil",
+      "nome": "CNN Brasil",
+      "avatar": "https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?auto=format&fit=crop&w=200&q=80",
+      "seguidores": "4.9M",
+      "plataforma": "youtube",
+      "url": "https://www.youtube.com/@CNNBrasil",
+      "status": "24h",
+      "ultimoVideo": {
+        "titulo": "18,000 portraits in 20 years: The man racing to photograph life on Earth",
+        "tempoAtras": "Postou há 26 min",
+        "link": "https://www.youtube.com/shorts/2pzOlnxh4hY"
+      }
+    },
+    {
+      "id": "ch-meteoro",
+      "nome": "Meteoro Brasil",
+      "avatar": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=200&q=80",
+      "seguidores": "1.2M",
+      "plataforma": "youtube",
+      "url": "https://www.youtube.com/@MeteoroBrasil",
+      "status": "inativo",
+      "ultimoVideo": {
+        "titulo": "ENXURRADA DE MEMES COM NOSSA SENHORA, FLÁVIO E LULA",
+        "tempoAtras": "Postou há 18 dias",
+        "link": "https://www.youtube.com/watch?v=dM_jlcqreII"
+      }
+    }
+  ]
+}

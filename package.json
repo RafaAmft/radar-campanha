@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "deploy": "next build && wrangler pages deploy out --project-name=radar-campanha --branch=main",
+    "update-feeds": "node scripts/update-feeds.mjs",
+    "build": "node scripts/update-feeds.mjs && next build",
+    "deploy": "node scripts/update-feeds.mjs && next build && wrangler pages deploy out --project-name=radar-campanha --branch=main",
     "start": "next start",
     "lint": "eslint"
   },
@@ -23,6 +24,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.4.5",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wrangler": "^4.158.0"
   }
 }

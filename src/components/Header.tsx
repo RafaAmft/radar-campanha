@@ -1,10 +1,13 @@
 'use client';
 
 import React from 'react';
-import { Radio, Share2, Flame, ShieldAlert, Users, Newspaper } from 'lucide-react';
+import { Radio, Share2, Flame, Users, Newspaper } from 'lucide-react';
+import liveFeeds from '@/data/liveFeeds.json';
 import { METADATA_GERAL } from '@/data/mockData';
 
 export default function Header() {
+  const ultimaAtualizacao = liveFeeds?.ultimaAtualizacaoFormatada || METADATA_GERAL.ultimaAtualizacao;
+
   return (
     <header className="sticky top-0 z-50 bg-neutral-950/95 backdrop-blur-md border-b border-neutral-800 text-white">
       <div className="max-w-6xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-3">
@@ -25,7 +28,7 @@ export default function Header() {
               </span>
             </div>
             <p className="text-xs text-neutral-400 mt-0.5">
-              {METADATA_GERAL.ultimaAtualizacao}
+              {ultimaAtualizacao}
             </p>
           </div>
         </div>
