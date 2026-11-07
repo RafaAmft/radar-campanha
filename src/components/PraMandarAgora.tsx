@@ -1,26 +1,32 @@
 'use client';
 
 import React, { useState } from 'react';
+import liveFeeds from '@/data/liveFeeds.json';
 import { MOCK_CARDS } from '@/data/mockData';
-import { CardItem, CategoriaCard } from '@/types';
-import { Download, Copy, Check, MessageCircle, ExternalLink, Share2, Sparkles } from 'lucide-react';
+import { CardItem } from '@/types';
+import { Download, Copy, Check, MessageCircle, Share2, Sparkles, Wifi } from 'lucide-react';
 
 export default function PraMandarAgora() {
   const [categoriaAtiva, setCategoriaAtiva] = useState<string>('todos');
   const [copiadoId, setCopiadoId] = useState<string | null>(null);
 
+  // Usa cards capturados dos repositórios abertos se disponíveis
+  const todosCards: CardItem[] = (liveFeeds?.cards && liveFeeds.cards.length > 0)
+    ? ([...(liveFeeds.cards as CardItem[]), ...MOCK_CARDS])
+    : MOCK_CARDS;
+
   const categorias = [
     { id: 'todos', label: 'Todos os Cards' },
-    { id: 'urgente', label: '🔥 Urgentes' },
+    { id: 'urgente', label: '🔥 Vídeos Virais' },
+    { id: 'economia', label: '📈 Economia & Direitos' },
     { id: 'fakenews', label: '🛡️ Checagem de Fakes' },
-    { id: 'economia', label: '📈 Economia & Salário' },
     { id: 'propostas', label: '💡 Propostas' },
     { id: 'social', label: '🤝 Direitos & Social' },
   ];
 
   const cardsFiltrados = categoriaAtiva === 'todos'
-    ? MOCK_CARDS
-    : MOCK_CARDS.filter((c) => c.categoria === categoriaAtiva);
+    ? todosCards
+    : todosCards.filter((c) => c.categoria === categoriaAtiva);
 
   const handleCopiarTexto = (card: CardItem) => {
     navigator.clipboard.writeText(card.textoZap);
@@ -49,13 +55,19 @@ export default function PraMandarAgora() {
               Pra Mandar Agora <span className="text-red-500 font-mono text-xl sm:text-2xl">({cardsFiltrados.length})</span>
             </h2>
             <p className="text-sm text-neutral-400 mt-1 max-w-2xl">
-              Cards com dados checados e mensagens prontas para rebater fake news e mobilizar eleitores indecisos no WhatsApp e redes sociais.
+              Cards checados e vídeos virais capturados diretamente dos repositórios de campanha, prontos para mandar no WhatsApp com 1 clique.
             </p>
           </div>
 
-          <div className="text-xs text-neutral-400 bg-neutral-900 border border-neutral-800 rounded-lg px-3 py-2 flex items-center gap-2">
-            <Sparkles className="w-4 h-4 text-emerald-400 shrink-0" />
-            <span>Toque em <b>WhatsApp</b> para disparar nos grupos</span>
+          <div className="flex flex-wrap items-center gap-2 text-xs">
+            <div className="text-emerald-400 bg-emerald-950/40 border border-emerald-500/30 rounded-lg px-3 py-2 flex items-center gap-2">
+              <Wifi className="w-4 h-4 animate-pulse shrink-0" />
+              <span>Repositório Aberto Conectado</span>
+            </div>
+            <div className="text-neutral-400 bg-neutral-900 border border-neutral-800 rounded-lg px-3 py-2 flex items-center gap-2">
+              <Sparkles className="w-4 h-4 text-emerald-400 shrink-0" />
+              <span>Toque em <b>WhatsApp</b> para enviar</span>
+            </div>
           </div>
         </div>
 
@@ -138,7 +150,7 @@ export default function PraMandarAgora() {
                   </div>
 
                   {/* WhatsApp Message Preview Quote */}
-                  <div className="mt-4 bg-neutral-950/60 border border-neutral-800/80 rounded-xl p-3 text-xs text-neutral-300 font-mono line-clamp-3">
+                  <div className="mt-4 bg-neutral-950/60 border border-neutral-800/80 rounded-xl p-3 text-xs text-neutral-300 font-mono line-clamp-3 whitespace-pre-line">
                     {card.textoZap}
                   </div>
 
@@ -153,7 +165,7 @@ export default function PraMandarAgora() {
                       <span>Mandar no WhatsApp</span>
                     </button>
 
-                    {/* Secondary Actions: Baixar Imagem & Copiar Texto */}
+                    {/* Secondary Actions */}
                     <div className="grid grid-cols-2 gap-2 text-xs">
                       <a
                         href={card.imagemUrl}
@@ -163,7 +175,7 @@ export default function PraMandarAgora() {
                         className="flex items-center justify-center gap-1.5 py-2 px-3 rounded-lg bg-neutral-800 hover:bg-neutral-700 text-neutral-300 transition-colors border border-neutral-700/50"
                       >
                         <Download className="w-3.5 h-3.5" />
-                        <span>Baixar Card</span>
+                        <span>Baixar Imagem</span>
                       </a>
 
                       <button

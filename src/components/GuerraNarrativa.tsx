@@ -1,12 +1,17 @@
 'use client';
 
 import React, { useState } from 'react';
+import liveFeeds from '@/data/liveFeeds.json';
 import { MOCK_NARRATIVAS } from '@/data/mockData';
 import { NarrativaItem } from '@/types';
-import { Flame, ShieldCheck, AlertCircle, Copy, Check, TrendingUp, ExternalLink } from 'lucide-react';
+import { Flame, ShieldCheck, AlertCircle, Copy, Check, TrendingUp, ExternalLink, Wifi } from 'lucide-react';
 
 export default function GuerraNarrativa() {
   const [copiadoId, setCopiadoId] = useState<string | null>(null);
+
+  const narrativas: NarrativaItem[] = (liveFeeds?.narrativas && liveFeeds.narrativas.length > 0)
+    ? ([...(liveFeeds.narrativas as NarrativaItem[]), ...MOCK_NARRATIVAS])
+    : MOCK_NARRATIVAS;
 
   const handleCopiarResposta = (item: NarrativaItem) => {
     const texto = `📌 RESPOSTA AO BOATO SOBRE ${item.tema.toUpperCase()}:\n\n` +
@@ -30,15 +35,15 @@ export default function GuerraNarrativa() {
               <Flame className="w-4 h-4 text-amber-500 animate-pulse" />
               <span>Guerra Narrativa</span>
             </div>
-            <h2 className="text-2xl sm:text-3xl font-black tracking-tight text-white">
+            <h2 className="text-2xl sm:text-3xl font-black tracking-tight text-white flex items-center gap-2">
               Do Que Cada Lado Fala
             </h2>
             <p className="text-sm text-neutral-400 mt-1 max-w-2xl">
-              Compare as narrativas de ataque com os fatos checados. Pegue o argumento certo para virar votos e desarmar mentiras nos debates.
+              Falas literais da oposição conferidas nas matérias originais, confrontadas lado a lado com os fatos checados e os argumentos de ouro.
             </p>
           </div>
 
-          <div className="flex items-center gap-2 text-xs">
+          <div className="flex flex-wrap items-center gap-2 text-xs">
             <span className="flex items-center gap-1 text-red-400 bg-red-950/60 border border-red-800/40 px-2.5 py-1 rounded-md">
               <span className="w-2 h-2 rounded-full bg-red-500"></span>
               Ataque Opositor
@@ -52,7 +57,7 @@ export default function GuerraNarrativa() {
 
         {/* Narratives List */}
         <div className="space-y-6">
-          {MOCK_NARRATIVAS.map((item) => {
+          {narrativas.map((item) => {
             const copiado = copiadoId === item.id;
 
             return (
@@ -111,7 +116,7 @@ export default function GuerraNarrativa() {
                       </blockquote>
                     </div>
                     <div className="mt-4 text-[11px] text-neutral-500 font-medium">
-                      ❌ Narrativa distorcida ou fora de contexto
+                      ❌ Declaração conferida na matéria original
                     </div>
                   </div>
 
