@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-08T14:24:11.470Z",
-  "ultimaAtualizacaoFormatada": "Hoje às 11:24",
+  "geradoEm": "2026-11-08T15:37:49.534Z",
+  "ultimaAtualizacaoFormatada": "Hoje às 12:37",
   "noticias": [
     {
       "id": "news-real-1",
@@ -22,6 +22,15 @@
     },
     {
       "id": "news-real-3",
+      "hora": "11:27",
+      "portal": "CNN Brasil",
+      "titulo": "Ana Elisa expõe ameaças de estupro e morte após críticas por usar escolta",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRWdBOW93RHNrSWtMS1B2eUo5eXd0X01PenZoRjRLR3F1QUpqS181SHN2d1ZNNGxjM2ZMMGVHeG9rdDJhU0pUaThGWmdKY1NBRkNZSHlwWThkREFqbVpOVkdEdTVNa1FjdEphRWdDdWRYSkxRQmwyM1JGTGJ4RmtFbHk2eVJvdHVScERSNWRtWHh2d0YwNDlRZmdtQ3Z0bG91OWpxTHY2S0ZqUHBoeXdNMzB3?oc=5",
+      "urgente": false,
+      "categoria": "Cidadania"
+    },
+    {
+      "id": "news-real-4",
       "hora": "17:04",
       "portal": "Estadão",
       "titulo": "Lula confirma ida de Janones à Turquia e pede ‘prontidão’ para o ‘Exército do Lula’",
@@ -30,29 +39,20 @@
       "categoria": "Cidadania"
     },
     {
-      "id": "news-real-4",
-      "hora": "02:00",
-      "portal": "R7",
-      "titulo": "Marinho promete reativar Conselho de Ética, que deixou Flávio Bolsonaro sem investigação no Senado",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPa19yMDdJWDdxejFQWm5zNTZNT1RQb3dXckpsNmZGZU0zYVFneWJVTnZ5MjRSZTNxRmJaME5XbUgxaHBLLUNsd3R3Rl9nMjNmQ0hNNWVwaWd5T0MxcmpCd1pkUUsxd09fZnlSQm1vdF9lUVcyRUxId3VHV2pIdnljZ0JwblR1aGxfSzgxc2MzZUZZVFhiYXFsWlFDOFlxaV9mRWpyZDlMTVJSLUNrbkx6Ylk1YkJCd1FBT052VVBVTEpZdHIyYm91S2pEenliOW9jMy1qUmFKOW00NjFacUE4eXptMHo?oc=5",
-      "urgente": false,
-      "categoria": "Cidadania"
-    },
-    {
       "id": "news-real-5",
-      "hora": "13:31",
-      "portal": "Metrópoles",
-      "titulo": "Lula, Dr. Luizinho e Padilha festejam marco histórico na saúde",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd05TTjA3RHFjV1pnZkpka2xnSXZRMWp1THhqSGZOTFFzWnczSDR3MGhiOVJ2NzNPR01jNy1zUlMtZWpjQVlBZlJmLUZZN0VBOHFsc2tzMjlGMlh2eG9pb2dPV0ZuenJUYmF4SV9QMmdXM0tWbHc1OGl3MEFGN3pBeXpNWGJHZFVtaXAtd0FpbnY2VnlZZ2JTcDVLXzRNd3ZsT1FJNEIzWE1KWjlWaGZB?oc=5",
+      "hora": "02:31",
+      "portal": "ND Mais",
+      "titulo": "‘Taxem os Pobres’: Costanza Peña, filha do presidente do Paraguai, incendeia crise com camiseta",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOazJyZ0hMUGk2Rmp4LXU1dFVPYUFwX3BCSGVfLS1pdzFjeVBzbDNhLTE1WE1IUkdBSUVJSGxSV29aMHdaU1dKc2R2U042U3pFTDNoLUR6TFE5RTlrRmdkbjFCdnlOVU12RDUtVFc4RTVTSzFWWHh5S1ZRMU4xYnctYXhyUktaQnhF?oc=5",
       "urgente": false,
       "categoria": "Cidadania"
     },
     {
       "id": "news-real-6",
-      "hora": "13:56",
-      "portal": "Metrópoles",
-      "titulo": "Camisa Tax the Poor faz filha do ex-presidente do Paraguai ser criticada",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ2hWZm9KU3otckFGbDg0X0pzczNxNnYzSG93TnI0RVFYV2R5bk05Z09sRzRWdzJpMnlMZkNPSGdwQndpM29qY01mMnJteFVSRE9Vc2RYenFZZm43QVpucUcxTVZQVE9VbkpTaXdiaHVFSnZLeTE3LTZuTTRsMk1yb3lrVkF5eDItdW9NTUIwQ3RKX3REa0p1WE9xa1hESFhzd1RDbGZ6ZEpZMEZyUkxQTGVoSG9pSEozeWpuVC1IaXUzeXdD?oc=5",
+      "hora": "18:31",
+      "portal": "Partido dos Trabalhadores",
+      "titulo": "Por médicos mais preparados, Governo Lula exige aprovação no ‘OAB da Medicina’",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVk45aGVsNGpFYlZua2JCUlZBc0hlM19jcTJfVkZTTkFXa040NnQ3dThaQ0VKVmwwc0ZkbERNMzB2VE9vWFJsNmx0dGVVZG1OUzJvS0pzS0dCVFZWWUN4VHFOU09aSTAtM1Q5anZ1c1dPMmNUd1dhTXNqWExzSTZ0OW14dGs4VnhTQ1hnbHFGeFk3TWN0RDRrLXZn0gGiAUFVX3lxTE1GRmk2alB1SGxUSXhCSWFfQlByTDZQbklPWXNfTUVmaVV3MHdDek4tU296bW1wRjhmcFFOSnVoVkY2OWNCaV83THQ0OFdVdGZ0d3dsSUZMNHh3RUhETE1UUmgwYjQyX3h3WGJvN3FCVnFlalloNHFIZDZITF9Dc2RsaTM0NEpKRHg1V2xDWDRKSXVRN1ZrVXdPbHY1Vkhta0tidw?oc=5",
       "urgente": false,
       "categoria": "Cidadania"
     }
@@ -82,7 +82,7 @@
       "status": "24h",
       "ultimoVideo": {
         "titulo": "A campanha por uma mulher negra no Supremo",
-        "tempoAtras": "Postou há 19 horas",
+        "tempoAtras": "Postou há 20 horas",
         "link": "https://www.youtube.com/shorts/7OSYfAPf0QA"
       }
     },
@@ -96,7 +96,7 @@
       "status": "24h",
       "ultimoVideo": {
         "titulo": "Eisenkot one step closer to ousting Netanyahu",
-        "tempoAtras": "Postou há 11 min",
+        "tempoAtras": "Postou há 1 hora",
         "link": "https://www.youtube.com/watch?v=Dh5Yla8p8zw"
       }
     },

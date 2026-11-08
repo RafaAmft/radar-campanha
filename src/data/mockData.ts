@@ -160,6 +160,8 @@ export const MOCK_DOSSIES: DossieItem[] = [
     id: 'dossie-6x1',
     tema: 'Escala de Trabalho 6x1 vs. Jornada 5x2',
     statusLegislativo: 'Emenda Constitucional 141/2026 Promulgada',
+    truqueRetorico: 'Pânico Econômico e Espantalho (jogar pequeno empresário contra trabalhador)',
+    aQuemInteressa: 'Grandes redes de varejo e fast-food que dependem de escala exaustiva sem pagar hora extra.',
     oBoato: {
       resumo: '"O fim do 6x1 vai gerar demissões em massa e quebrar os pequenos comerciantes."',
       origem: 'Declarações de lideranças corporativas e correntes em redes sociais.',
@@ -183,6 +185,8 @@ export const MOCK_DOSSIES: DossieItem[] = [
     id: 'dossie-bets',
     tema: 'Regulamentação das Bets & Jogos Online',
     statusLegislativo: 'Votação de Restrições em Pauta na Câmara e STF',
+    truqueRetorico: 'Falsa Defesa da Liberdade Individual (disfarce de lobby bilionário predatório)',
+    aQuemInteressa: 'Casas de aposta sediadas em paraísos fiscais que drenam R$ 3 bilhões mensais sem pagar impostos.',
     oBoato: {
       resumo: '"O governo quer controlar a liberdade das pessoas de apostarem onde quiserem."',
       origem: 'Campanhas publicitárias de operadores de jogos e influenciadores digitais.',
@@ -205,6 +209,8 @@ export const MOCK_DOSSIES: DossieItem[] = [
     id: 'dossie-educacao',
     tema: 'Programa Pé-de-Meia (Poupança Estudantil)',
     statusLegislativo: 'Lei Federal 14.818 em plena execução',
+    truqueRetorico: 'Estigmatização Meritocrática (rotular qualquer proteção social como "esmola")',
+    aQuemInteressa: 'Grupos que lucram com a precarização da juventude e mão de obra barata sem formação.',
     oBoato: {
       resumo: '"Estão distribuindo dinheiro para jovens sem qualquer contrapartida ou exigência."',
       origem: 'Postagens de oposição qualificando o benefício como mero assistencialismo.',

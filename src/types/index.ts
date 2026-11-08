@@ -37,6 +37,8 @@ export interface DossieItem {
   id: string;
   tema: string;
   statusLegislativo?: string;
+  truqueRetorico?: string;
+  aQuemInteressa?: string;
   oBoato: {
     resumo: string;
     origem: string;
