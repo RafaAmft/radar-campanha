@@ -2,8 +2,8 @@
 
 import React from 'react';
 import liveFeeds from '@/data/liveFeeds.json';
-import { MOCK_CANAIS, METADATA_GERAL } from '@/data/mockData';
-import { Users, Video, Radio, ExternalLink, PlayCircle, Wifi } from 'lucide-react';
+import { MOCK_CANAIS } from '@/data/mockData';
+import { Users, Video, ExternalLink, PlayCircle } from 'lucide-react';
 import { CanalItem } from '@/types';
 
 export default function RedeCriadores() {
@@ -12,20 +12,20 @@ export default function RedeCriadores() {
     : MOCK_CANAIS;
 
   return (
-    <section id="canais" className="py-12 bg-neutral-900 text-white border-t border-neutral-800 scroll-mt-14">
+    <section id="canais" className="py-12 bg-neutral-900 text-white border-t border-neutral-800 scroll-mt-20">
       <div className="max-w-6xl mx-auto px-4">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
           <div>
             <div className="inline-flex items-center gap-1.5 text-purple-400 font-bold text-xs uppercase tracking-wider mb-2">
               <Users className="w-4 h-4 text-purple-400" />
-              <span>Monitoramento em Tempo Real</span>
+              <span>Formação & Debate Crítico</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-black tracking-tight text-white flex items-center gap-2">
-              Rede de Criadores & Mídia Parceira
+              Rede de Canais & Criadores
             </h2>
             <p className="text-sm text-neutral-400 mt-1 max-w-2xl">
-              Frequência de postagens monitorada ao vivo diretamente via YouTube RSS. Fortaleça o alcance assistindo e compartilhando os conteúdos frescos.
+              Canais independentes de análise política, economia popular e jornalismo investigativo para aprofundar seu repertório.
             </p>
           </div>
 
@@ -33,7 +33,7 @@ export default function RedeCriadores() {
           <div className="flex flex-wrap items-center gap-3 text-xs bg-neutral-950 p-2.5 rounded-xl border border-neutral-800">
             <span className="flex items-center gap-1.5 text-emerald-400 font-medium">
               <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 shadow-sm shadow-emerald-500/50"></span>
-              Postou em 24h
+              Vídeo novo em 24h
             </span>
             <span className="flex items-center gap-1.5 text-amber-400 font-medium">
               <span className="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
@@ -111,7 +111,7 @@ export default function RedeCriadores() {
                     <div className="flex items-center justify-between text-[11px] mb-1.5">
                       <span className="text-neutral-400 flex items-center gap-1 font-semibold">
                         <Video className="w-3 h-3 text-purple-400" />
-                        Último Vídeo Publicado
+                        Última Análise Publicada
                       </span>
                       <span
                         className={`font-semibold ${

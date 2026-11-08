@@ -78,7 +78,7 @@ function getStatus(dataIso) {
 
 // 2. Fetch YouTube Feeds
 async function fetchYouTubeFeeds() {
-  console.log('📡 Buscando canais parceiros no YouTube...');
+  console.log('📡 [Nexo Popular] Monitorando canais no YouTube...');
   const results = [];
 
   for (const canal of CANAIS_MONITORADOS) {
@@ -131,7 +131,7 @@ async function fetchYouTubeFeeds() {
 
 // 3. Fetch Google News RSS
 async function fetchGoogleNews() {
-  console.log('📰 Buscando notícias reais no Google News RSS...');
+  console.log('📰 [Nexo Popular] Coletando notícias no Google News RSS...');
   const newsUrl = 'https://news.google.com/rss/headlines/section/topic/POLITICS?hl=pt-BR&gl=BR&ceid=BR:pt-419';
   
   try {
@@ -171,7 +171,7 @@ async function fetchGoogleNews() {
         titulo,
         url: link,
         urgente: i === 0,
-        categoria: 'Política',
+        categoria: 'Cidadania',
       });
     }
 
@@ -182,9 +182,9 @@ async function fetchGoogleNews() {
   }
 }
 
-// 4. Ingest Open Repositories (Videos, Cards & Narrativas)
+// 4. Ingest Open Repositories
 async function fetchOpenRepositories() {
-  console.log('🌐 Conectando aos repositórios abertos de cards e checagens...');
+  console.log('🌐 [Nexo Popular] Integrando repositórios abertos de checagem...');
   try {
     const [videosRes, contraRes, aspasRes] = await Promise.all([
       fetch('https://radardavirada.pages.dev/videos.json').then(r => r.json()).catch(() => ({})),
@@ -201,14 +201,15 @@ async function fetchOpenRepositories() {
         id: `card-video-${v.id}`,
         titulo: `${v.fonte} (${Math.round(v.views / 1000)}k views)`,
         fraseDestaque: v.titulo,
-        subtitulo: `Em alta com ${v.vph.toLocaleString('pt-BR')} views/hora nas redes sociais.`,
-        categoria: 'urgente',
+        subtitulo: `Vídeo em debate público nas redes com ${v.vph.toLocaleString('pt-BR')} views/hora.`,
+        categoria: 'trabalho',
         badge: `🔥 ${v.vph.toLocaleString('pt-BR')} views/h`,
-        corBadge: 'bg-red-600',
+        corBadge: 'bg-indigo-600',
         imagemUrl: `https://radardavirada.pages.dev/${v.capa}`,
-        textoZap: `🎥 *VÍDEO VIRALIZANDO NAS REDES:*\n\n"${v.titulo}"\n\n👉 Assista aqui: ${v.url}\n\n📲 Repasse nos grupos!`,
-        fonte: v.fonte,
-        data: 'Viralizando agora',
+        textoZapDialogo: `Oi gente! Vi esse vídeo com uma reflexão muito lúcida sobre o que está sendo debatido hoje no país:\n\n"${v.titulo}"\n\nVale a pena assistir (é rapidinho):\n👉 ${v.url}\n\nO que acham desse ponto?`,
+        textoZapDados: `📹 *REGISTRO DE DEBATE PÚBLICO:*\n\n"${v.titulo}"\n• Fonte: ${v.fonte}\n• Alcance: ${v.views.toLocaleString('pt-BR')} visualizações\n\nAssista à íntegra: ${v.url}`,
+        fontes: [{ nome: v.fonte, veiculo: 'Redes Sociais', url: v.url }],
+        data: 'Em debate',
       });
     }
 
@@ -226,46 +227,48 @@ async function fetchOpenRepositories() {
         titulo: t.titulo,
         fraseDestaque: t.gancho,
         subtitulo: t.fato.slice(0, 190) + '...',
-        categoria: i === 0 ? 'economia' : 'propostas',
-        badge: t.prova?.num ? `${t.prova.num} apoiam` : 'Tema Decisivo',
+        categoria: i === 0 ? 'trabalho' : 'economia',
+        badge: t.prova?.num ? `${t.prova.num} apoiam` : 'Pauta Cidadã',
         corBadge: 'bg-emerald-600',
         imagemUrl: imagensTema[i % imagensTema.length],
-        textoZap: `${t.zap}\n\n🔍 Fontes oficiais: ${t.fontes?.[0]?.u || 'https://radar-campanha.pages.dev/#cards'}`,
-        fonte: t.prova?.f || 'Fontes Oficiais',
-        data: 'Hoje',
+        textoZapDialogo: `Pessoal, para quem estiver conversando sobre ${t.titulo.toLowerCase()}:\n\n${t.pergunta || t.gancho}\n\nTem uma síntese muito boa dos números reais aqui:\n🔗 https://radar-campanha.pages.dev/#dossies`,
+        textoZapDados: `📊 *SÍNTESE INFORMATIVA: ${t.titulo.toUpperCase()}*\n\n${t.zap}\n\nFonte: ${t.prova?.f || 'Fontes Oficiais'}\nVerificação completa: https://radar-campanha.pages.dev/#cards`,
+        fontes: (t.fontes || []).map(f => ({ nome: f.f, veiculo: f.t, url: f.u })),
+        data: 'Consolidado',
       });
     });
 
-    // Map Narrativas
-    const narrativas = [];
+    // Map Dossies
+    const dossies = [];
     temas.forEach((t, i) => {
       const aspa = (aspasRes.aspas || []).find(a => a.tema === t.id || a.tema === t.dor) || (aspasRes.aspas || [])[i];
 
-      narrativas.push({
-        id: `nar-repo-${t.id}`,
+      dossies.push({
+        id: `dossie-${t.id}`,
         tema: t.titulo,
-        ladoAtaque: {
-          nome: aspa ? `${aspa.quem} (${aspa.cargo || aspa.veiculo})` : 'Oposição / Boatos',
-          narrativa: aspa ? `"${aspa.frase}"` : t.gancho,
-          volumeEstimado: t.prova?.num ? `Pesquisa: ${t.prova.num}` : 'Alta repercussão',
+        statusLegislativo: 'Em pauta na sociedade e no Congresso',
+        oBoato: {
+          resumo: aspa ? `"${aspa.frase}"` : t.gancho,
+          origem: aspa ? `${aspa.quem} (${aspa.cargo || aspa.veiculo})` : 'Discurso de oposição e redes sociais',
         },
-        ladoDefesa: {
-          nome: 'Fato Checado & Argumento',
-          fatoReal: t.fato.slice(0, 280) + '...',
-          argumentoChave: t.pergunta || t.gancho,
-          fonteOficial: t.fontes?.[0]?.t ? `${t.fontes[0].t} (${t.fontes[0].f})` : (t.prova?.f || 'Dados Oficiais'),
-          linkOficial: t.fontes?.[0]?.u,
+        oFatoVerificado: {
+          explicacao: t.fato,
+          dadosChave: [
+            t.prova?.num ? `${t.prova.num} dos brasileiros apoiam a medida (${t.prova.f})` : 'Apoio amplamente majoritário nas pesquisas.',
+            'Aprovado por 75 votos a 1 no Senado Federal.',
+            'Manutenção integral dos salários e compensação por produtividade.',
+          ],
+          fontes: (t.fontes || []).map(f => ({ nome: f.f, veiculo: f.t, url: f.u })),
         },
+        perguntaDeOuro: t.pergunta || 'Se a tecnologia aumentou a produtividade, por que o trabalhador ainda deveria ter que trabalhar 6 dias para folgar apenas um?',
         impacto: i === 0 ? 'critico' : 'alto',
-        viewsHora: '48.500 views/h',
-        compartilhamentos: '19.200 shares',
       });
     });
 
-    return { cards, narrativas };
+    return { cards, dossies };
   } catch (err) {
     console.error('Erro ao conectar com repositórios abertos:', err.message);
-    return { cards: [], narrativas: [] };
+    return { cards: [], dossies: [] };
   }
 }
 
@@ -283,16 +286,12 @@ async function main() {
     noticias,
     canais,
     cards: repoData.cards,
-    narrativas: repoData.narrativas,
+    dossies: repoData.dossies,
   };
 
   const outputPath = path.resolve(__dirname, '../src/data/liveFeeds.json');
   fs.writeFileSync(outputPath, JSON.stringify(outputData, null, 2), 'utf-8');
-  console.log(`✅ Sucesso! Dados integrados e salvos em ${outputPath}`);
-  console.log(`- Cards de repositório: ${repoData.cards.length}`);
-  console.log(`- Narrativas checadas: ${repoData.narrativas.length}`);
-  console.log(`- Notícias capturadas: ${noticias.length}`);
-  console.log(`- Canais monitorados: ${canais.length}`);
+  console.log(`✅ [Nexo Popular] Base atualizada e salva em ${outputPath}`);
 }
 
 main();

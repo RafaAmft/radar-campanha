@@ -1,60 +1,60 @@
 {
-  "geradoEm": "2026-11-07T13:34:58.419Z",
-  "ultimaAtualizacaoFormatada": "Hoje às 10:34",
+  "geradoEm": "2026-11-08T14:24:11.470Z",
+  "ultimaAtualizacaoFormatada": "Hoje às 11:24",
   "noticias": [
     {
       "id": "news-real-1",
-      "hora": "07:15",
-      "portal": "Poder360",
-      "titulo": "Santiago Peña é transferido para base militar",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcVl5YTdrMmdxbW1Na3hzTjZsNjlqZFAtT3czeDFQVnhSN1ZRRnpzZ3o5bDF0RUVFOGhBeElacng4emVLRm9KTmZEZC1HMms5Z19oWEt5Z2xucUZxY193dldHTmNja2NDbHNNaDVEdWtSNE5aMmdOS3poZjBERlVIT1d3OGdkNnJfOXhwLVBTdWFwX2N3MDY1ZlRn?oc=5",
+      "hora": "19:10",
+      "portal": "CNN Brasil",
+      "titulo": "Juiz do Paraguai decreta prisão preventiva do ex-presidente Santiago Peña",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONFBuemJDWUIxVUdiY25QLWRERURaT2FVbkhZeHpfbVg5Rkl5b0FrdmUzQnppRVB4dFhsQWtLUHJfa0ktRmEzTDRrOVN3TE5JcDh6ZERjWmxvUk5MTnpZc0l1MTdkQ1lzX0pZNHVNUnNIXzBlaUp4aFo0bHB3cVBHd2dUU25waFRIZHYySFRkYnFmYTJaTkNDWGttMHhpOE1VR3dsVlFJNmpmV2plaU1hSHNhSVFZaDVC?oc=5",
       "urgente": true,
-      "categoria": "Política"
+      "categoria": "Cidadania"
     },
     {
       "id": "news-real-2",
-      "hora": "14:39",
-      "portal": "JOTA Info",
-      "titulo": "Desembargadora que autorizou bets a funcionarem compartilhou posts contra Lula e em defesa de Bolsonaro",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNODFBS2FuMEZMdzNzUEVVM1pTWGtSSU8yZUx1emJESmNETnhzTVh1ZzRsS1NvNUpMNEh1bkx0X0RtWGFhRkEydFBJUE9wVng2ZGVyOVhWMkYzdk9EaFBUSGItcXhHOXk5a0V1emhJcVBOR3lpZGFLOTYzaWhxZnpqRHduRExpd0VCNUN6OFh5RGRpOWtlN0hYbU1lX3hqemJPWmtoSFgtOGlObFk3V0RiM3V5ZC1YUUpManJVWmhSMFJKTUpiVXg0ZWp2OXRGUQ?oc=5",
+      "hora": "03:30",
+      "portal": "O GLOBO",
+      "titulo": "Entrevista: 'PEC da Segurança acaba com ilhas de informação ao padronizar e compartilhar dados', diz Ricardo Saadi, presidente do Coaf",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNUDhldFM0X200SjUtMVlnb25XUUtXb0x3dWNvbzlpNjBPNUNjVmluVXVackw2Y1hiSDRGNTkyd2lUUkZVZ1psY25ZQkFaczN6QU9FTk9NUGpVTTNLaXJFZ2JKSzJSMnRLTG8zaFNBbEQ0cHVfVURuYXpiYW5DSjE1dzRBTEZWS3A3OEhtRGJqbXVBeDFzbEM1ZFBteDlucXVLb1ppX0RXVEJaV093TktRLUlDekdVTm9Pd0IxNmtIMlVSRG9OSDR0ZzhfWVo4bXF6akxGVTlYdDk3dFBibFQyWEh3cWhqWHJmZnBQRUt1Y2hVOUJRQ0RDVThuNWlvSEFKTllHSjVQaFNIUmhIczNWWmp1U3NTUTDSAaYCQVVfeXFMTVRzX05wdVNIZmFtZlFEZnRpc05oU2hEN0pubGxPUzhZSVB2UEZDY3JvTHJSeUNsUkczX2JMNHF6aUQ0a2pfdDlUYnRuVVdGY0dxSUJvTVNPc2Q4QlJkOXowQ3VaTnE2THBkTTl0S2hVYlVBcVVueGYxTko3UzBBZzliWUZjR0ttaDh3dU9jaWxJNWRnMzAtVWpyWDdTS2pHUVR3bWhsMDYzRmg5cDQxcmV0eXRKRlB3TDdoNWxsM0xYaUMyRFlpTlRyQjI0dG1NdkVEQzZNU05kbDBtQVpYdk5DdHA4b3A3cXcyNEtQSzJFVENfRnBqalZWYUx4bXF2TkxDSFdWeC1RbVZkTXJJY3Y0Vmd3ZHVsdWRNZmdYLVVCNWc3TjJB?oc=5",
       "urgente": false,
-      "categoria": "Política"
+      "categoria": "Cidadania"
     },
     {
       "id": "news-real-3",
-      "hora": "08:04",
-      "portal": "Revista Fórum",
-      "titulo": "Luciano Hang, o \"véio da Havan\", defende Santiago Peña, que sofreu impeachment e foi preso no Paraguai",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWUJPMDJLZU5uSVNCY3lZb3ktanRrZWUxNkw0LVZ0YnZFVndEVXhobkREVGdGWENWRWtsX09henNBejkxZWFHckk4NU5QSDVIYnJieUIzMjJadl9HQWotTzN2akxXdFltRm9uV0Z4ZThCQ25EblFlSV9UWGt5dXhPYi1B?oc=5",
+      "hora": "17:04",
+      "portal": "Estadão",
+      "titulo": "Lula confirma ida de Janones à Turquia e pede ‘prontidão’ para o ‘Exército do Lula’",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ25wS0pNLUlFelpwRVU2aHJYS1QtUE9hQkJaalYwLUhEUWZ2Sy16MHFha1JFRGZaaTJJNEQ4M29wa05WVmpVb3FpNEItOC1lNUtxcFBVVWpLdDFhOE5UY1YxQnRYRjBUUUF6SXduU1RSV2JTWk4tcGk2eEZJX0NXYkdscmtyam1wMnVYS1prRkFUM3lfLUY3R1pNT2lGZXhSTC12WHM3Y2JiNjJzMnVxbmd5a2tjejDSAbwBQVVfeXFMT2NyeTZVTnFoMW11NHhoaGc4d2tDdUdVMEc5VFFzek41bi1QVWgzOXZGb3JVdVhrOE1KSDFiUGpKTjJjV0FhcjFoV3J0YW5BQ1NNNlo3bFRNZ1E2TlhWZkNlT2VLU0tseXpBdXpGNnhnX1M3QlV1TThtSm9ycmY3YmpHdkVvMTE1bThSYmMwUU53TmtlakozeGRmeDU3dEFXVDA5UWhUV09mc1ZXOWMzdF94eGlvakw2NEl2cFc?oc=5",
       "urgente": false,
-      "categoria": "Política"
+      "categoria": "Cidadania"
     },
     {
       "id": "news-real-4",
-      "hora": "15:17",
-      "portal": "CNN Brasil",
-      "titulo": "\"Quem não quiser fazer, cai fora\", diz Lula sobre entregas do governo",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR05wZnlkRVhQMEIzNUVjZ09la2pyakE3cmV0NWQ4VUc5Z0V0RmZpN2NzX2ViY1BaMXM3aWtXSzM2eEwxeUpIMi1JaE1SOE91RlBqWnBzcGF3TW80OGZ5UUJjOC13VlNNRXhyaXVySnlkZ2FibWVPY1MtNmJhMGRHbXlOWHZ0UnlrcXFjZGF1UFVpRFVSYktqMGFObUNsdGRhU0x5QzJrVQ?oc=5",
+      "hora": "02:00",
+      "portal": "R7",
+      "titulo": "Marinho promete reativar Conselho de Ética, que deixou Flávio Bolsonaro sem investigação no Senado",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPa19yMDdJWDdxejFQWm5zNTZNT1RQb3dXckpsNmZGZU0zYVFneWJVTnZ5MjRSZTNxRmJaME5XbUgxaHBLLUNsd3R3Rl9nMjNmQ0hNNWVwaWd5T0MxcmpCd1pkUUsxd09fZnlSQm1vdF9lUVcyRUxId3VHV2pIdnljZ0JwblR1aGxfSzgxc2MzZUZZVFhiYXFsWlFDOFlxaV9mRWpyZDlMTVJSLUNrbkx6Ylk1YkJCd1FBT052VVBVTEpZdHIyYm91S2pEenliOW9jMy1qUmFKOW00NjFacUE4eXptMHo?oc=5",
       "urgente": false,
-      "categoria": "Política"
+      "categoria": "Cidadania"
     },
     {
       "id": "news-real-5",
-      "hora": "18:31",
-      "portal": "Partido dos Trabalhadores",
-      "titulo": "Por médicos mais preparados, Governo Lula exige aprovação no ‘OAB da Medicina’",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVk45aGVsNGpFYlZua2JCUlZBc0hlM19jcTJfVkZTTkFXa040NnQ3dThaQ0VKVmwwc0ZkbERNMzB2VE9vWFJsNmx0dGVVZG1OUzJvS0pzS0dCVFZWWUN4VHFOU09aSTAtM1Q5anZ1c1dPMmNUd1dhTXNqWExzSTZ0OW14dGs4VnhTQ1hnbHFGeFk3TWN0RDRrLXZn0gGiAUFVX3lxTE1GRmk2alB1SGxUSXhCSWFfQlByTDZQbklPWXNfTUVmaVV3MHdDek4tU296bW1wRjhmcFFOSnVoVkY2OWNCaV83THQ0OFdVdGZ0d3dsSUZMNHh3RUhETE1UUmgwYjQyX3h3WGJvN3FCVnFlalloNHFIZDZITF9Dc2RsaTM0NEpKRHg1V2xDWDRKSXVRN1ZrVXdPbHY1Vkhta0tidw?oc=5",
+      "hora": "13:31",
+      "portal": "Metrópoles",
+      "titulo": "Lula, Dr. Luizinho e Padilha festejam marco histórico na saúde",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd05TTjA3RHFjV1pnZkpka2xnSXZRMWp1THhqSGZOTFFzWnczSDR3MGhiOVJ2NzNPR01jNy1zUlMtZWpjQVlBZlJmLUZZN0VBOHFsc2tzMjlGMlh2eG9pb2dPV0ZuenJUYmF4SV9QMmdXM0tWbHc1OGl3MEFGN3pBeXpNWGJHZFVtaXAtd0FpbnY2VnlZZ2JTcDVLXzRNd3ZsT1FJNEIzWE1KWjlWaGZB?oc=5",
       "urgente": false,
-      "categoria": "Política"
+      "categoria": "Cidadania"
     },
     {
       "id": "news-real-6",
-      "hora": "16:18",
-      "portal": "Estadão",
-      "titulo": "‘Taxem os pobres’: filha do presidente do Paraguai usa camiseta com pedido e é alvo de críticas",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPX0V1OWVtbnhPOXZTTERlNExvTjlOcDgzVURDRG9ONjNwbmpHVnpLd0xPMVA5Q3dKZU9ISkRPcVQ1Wl92ckh6c2R0eFB1OEk2SnhhTUFyeGV6T0NEUmZvdVhpeHZuQ2Jza3ZrWDRISjUzb0twUy0ySHZ4QTZ1M1FnUnZHT0NNbW9kb3N1c0hqRnBaY1hZTHNWNklTWnBoTFBFOTltTNIBqgFBVV95cUxPOFZtWUdDSGZDM1hhM3VzM3lIdXhWUXEwWmNjaFZkaU9mMnVqREs4ZjNkM1RHckFZS3pxdFU0dDlPYU9FRThyWkxEaFlPSmJ6emRwczFuRC1vMmo1YVlrejBrZ2w0V2VWZzFMOHB0YlBlalNkRGlDU19aMHJPeW9yNFdOQWJKZHRZZWVYek1ESHhuRHRLU18tQy1kWGsyeWxmSTNvbzF4SnE2UQ?oc=5",
+      "hora": "13:56",
+      "portal": "Metrópoles",
+      "titulo": "Camisa Tax the Poor faz filha do ex-presidente do Paraguai ser criticada",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ2hWZm9KU3otckFGbDg0X0pzczNxNnYzSG93TnI0RVFYV2R5bk05Z09sRzRWdzJpMnlMZkNPSGdwQndpM29qY01mMnJteFVSRE9Vc2RYenFZZm43QVpucUcxTVZQVE9VbkpTaXdiaHVFSnZLeTE3LTZuTTRsMk1yb3lrVkF5eDItdW9NTUIwQ3RKX3REa0p1WE9xa1hESFhzd1RDbGZ6ZEpZMEZyUkxQTGVoSG9pSEozeWpuVC1IaXUzeXdD?oc=5",
       "urgente": false,
-      "categoria": "Política"
+      "categoria": "Cidadania"
     }
   ],
   "canais": [
@@ -65,10 +65,10 @@
       "seguidores": "1.8M",
       "plataforma": "youtube",
       "url": "https://www.youtube.com/@ICLNoticias",
-      "status": "24h",
+      "status": "72h",
       "ultimoVideo": {
         "titulo": "ICL URGENTE COM RODRIGO VIANNA E ICL NOTÍCIAS 2 - 06/NOVEMBRO ÀS 17h",
-        "tempoAtras": "Postou há 15 horas",
+        "tempoAtras": "Postou há 1 dia",
         "link": "https://www.youtube.com/watch?v=46GbkBhWMbA"
       }
     },
@@ -81,9 +81,9 @@
       "url": "https://www.youtube.com/@cartacapital",
       "status": "24h",
       "ultimoVideo": {
-        "titulo": "Candidaturas históricas vencem o trumpismo | De Cabeça para Baixo, com Jamil Chade #64",
-        "tempoAtras": "Postou há 34 min",
-        "link": "https://www.youtube.com/shorts/BT0MmRipb1A"
+        "titulo": "A campanha por uma mulher negra no Supremo",
+        "tempoAtras": "Postou há 19 horas",
+        "link": "https://www.youtube.com/shorts/7OSYfAPf0QA"
       }
     },
     {
@@ -95,9 +95,9 @@
       "url": "https://www.youtube.com/@CNNBrasil",
       "status": "24h",
       "ultimoVideo": {
-        "titulo": "18,000 portraits in 20 years: The man racing to photograph life on Earth",
-        "tempoAtras": "Postou há 33 min",
-        "link": "https://www.youtube.com/shorts/2pzOlnxh4hY"
+        "titulo": "Eisenkot one step closer to ousting Netanyahu",
+        "tempoAtras": "Postou há 11 min",
+        "link": "https://www.youtube.com/watch?v=Dh5Yla8p8zw"
       }
     },
     {
@@ -110,7 +110,7 @@
       "status": "inativo",
       "ultimoVideo": {
         "titulo": "ENXURRADA DE MEMES COM NOSSA SENHORA, FLÁVIO E LULA",
-        "tempoAtras": "Postou há 19 dias",
+        "tempoAtras": "Postou há 20 dias",
         "link": "https://www.youtube.com/watch?v=dM_jlcqreII"
       }
     }
@@ -120,151 +120,321 @@
       "id": "card-video-tt-7703283049873575176",
       "titulo": "TikTok @ptbrasil (3300k views)",
       "fraseDestaque": "Lula: nenhum programa social será extinto",
-      "subtitulo": "Em alta com 62.093 views/hora nas redes sociais.",
-      "categoria": "urgente",
+      "subtitulo": "Vídeo em debate público nas redes com 62.093 views/hora.",
+      "categoria": "trabalho",
       "badge": "🔥 62.093 views/h",
-      "corBadge": "bg-red-600",
+      "corBadge": "bg-indigo-600",
       "imagemUrl": "https://radardavirada.pages.dev/capas/7703283049873575176.jpg",
-      "textoZap": "🎥 *VÍDEO VIRALIZANDO NAS REDES:*\n\n\"Lula: nenhum programa social será extinto\"\n\n👉 Assista aqui: https://www.tiktok.com/@ptbrasil/video/7703283049873575176\n\n📲 Repasse nos grupos!",
-      "fonte": "TikTok @ptbrasil",
-      "data": "Viralizando agora"
+      "textoZapDialogo": "Oi gente! Vi esse vídeo com uma reflexão muito lúcida sobre o que está sendo debatido hoje no país:\n\n\"Lula: nenhum programa social será extinto\"\n\nVale a pena assistir (é rapidinho):\n👉 https://www.tiktok.com/@ptbrasil/video/7703283049873575176\n\nO que acham desse ponto?",
+      "textoZapDados": "📹 *REGISTRO DE DEBATE PÚBLICO:*\n\n\"Lula: nenhum programa social será extinto\"\n• Fonte: TikTok @ptbrasil\n• Alcance: 3.300.000 visualizações\n\nAssista à íntegra: https://www.tiktok.com/@ptbrasil/video/7703283049873575176",
+      "fontes": [
+        {
+          "nome": "TikTok @ptbrasil",
+          "veiculo": "Redes Sociais",
+          "url": "https://www.tiktok.com/@ptbrasil/video/7703283049873575176"
+        }
+      ],
+      "data": "Em debate"
     },
     {
       "id": "card-video-tt-7703933660138949909",
       "titulo": "TikTok @lulaoficial (479k views)",
       "fraseDestaque": "Lula chama a sociedade para acompanhar a audiência das bets",
-      "subtitulo": "Em alta com 43.301 views/hora nas redes sociais.",
-      "categoria": "urgente",
+      "subtitulo": "Vídeo em debate público nas redes com 43.301 views/hora.",
+      "categoria": "trabalho",
       "badge": "🔥 43.301 views/h",
-      "corBadge": "bg-red-600",
+      "corBadge": "bg-indigo-600",
       "imagemUrl": "https://radardavirada.pages.dev/capas/7703933660138949909.jpg",
-      "textoZap": "🎥 *VÍDEO VIRALIZANDO NAS REDES:*\n\n\"Lula chama a sociedade para acompanhar a audiência das bets\"\n\n👉 Assista aqui: https://www.tiktok.com/@lulaoficial/video/7703933660138949909\n\n📲 Repasse nos grupos!",
-      "fonte": "TikTok @lulaoficial",
-      "data": "Viralizando agora"
+      "textoZapDialogo": "Oi gente! Vi esse vídeo com uma reflexão muito lúcida sobre o que está sendo debatido hoje no país:\n\n\"Lula chama a sociedade para acompanhar a audiência das bets\"\n\nVale a pena assistir (é rapidinho):\n👉 https://www.tiktok.com/@lulaoficial/video/7703933660138949909\n\nO que acham desse ponto?",
+      "textoZapDados": "📹 *REGISTRO DE DEBATE PÚBLICO:*\n\n\"Lula chama a sociedade para acompanhar a audiência das bets\"\n• Fonte: TikTok @lulaoficial\n• Alcance: 479.200 visualizações\n\nAssista à íntegra: https://www.tiktok.com/@lulaoficial/video/7703933660138949909",
+      "fontes": [
+        {
+          "nome": "TikTok @lulaoficial",
+          "veiculo": "Redes Sociais",
+          "url": "https://www.tiktok.com/@lulaoficial/video/7703933660138949909"
+        }
+      ],
+      "data": "Em debate"
     },
     {
       "id": "card-video-tt-7704044363461971218",
       "titulo": "TikTok @ptbrasil (59k views)",
       "fraseDestaque": "Padilha: proibir as bets é proteger as famílias",
-      "subtitulo": "Em alta com 15.149 views/hora nas redes sociais.",
-      "categoria": "urgente",
+      "subtitulo": "Vídeo em debate público nas redes com 15.149 views/hora.",
+      "categoria": "trabalho",
       "badge": "🔥 15.149 views/h",
-      "corBadge": "bg-red-600",
+      "corBadge": "bg-indigo-600",
       "imagemUrl": "https://radardavirada.pages.dev/capas/7704044363461971218.jpg",
-      "textoZap": "🎥 *VÍDEO VIRALIZANDO NAS REDES:*\n\n\"Padilha: proibir as bets é proteger as famílias\"\n\n👉 Assista aqui: https://www.tiktok.com/@ptbrasil/video/7704044363461971218\n\n📲 Repasse nos grupos!",
-      "fonte": "TikTok @ptbrasil",
-      "data": "Viralizando agora"
+      "textoZapDialogo": "Oi gente! Vi esse vídeo com uma reflexão muito lúcida sobre o que está sendo debatido hoje no país:\n\n\"Padilha: proibir as bets é proteger as famílias\"\n\nVale a pena assistir (é rapidinho):\n👉 https://www.tiktok.com/@ptbrasil/video/7704044363461971218\n\nO que acham desse ponto?",
+      "textoZapDados": "📹 *REGISTRO DE DEBATE PÚBLICO:*\n\n\"Padilha: proibir as bets é proteger as famílias\"\n• Fonte: TikTok @ptbrasil\n• Alcance: 59.200 visualizações\n\nAssista à íntegra: https://www.tiktok.com/@ptbrasil/video/7704044363461971218",
+      "fontes": [
+        {
+          "nome": "TikTok @ptbrasil",
+          "veiculo": "Redes Sociais",
+          "url": "https://www.tiktok.com/@ptbrasil/video/7704044363461971218"
+        }
+      ],
+      "data": "Em debate"
     },
     {
       "id": "card-video-tt-7703185496469703988",
       "titulo": "TikTok @guilhermeboulos (693k views)",
       "fraseDestaque": "Boulos cobra Tarcísio sobre o preço do diesel",
-      "subtitulo": "Em alta com 11.648 views/hora nas redes sociais.",
-      "categoria": "urgente",
+      "subtitulo": "Vídeo em debate público nas redes com 11.648 views/hora.",
+      "categoria": "trabalho",
       "badge": "🔥 11.648 views/h",
-      "corBadge": "bg-red-600",
+      "corBadge": "bg-indigo-600",
       "imagemUrl": "https://radardavirada.pages.dev/capas/7703185496469703988.jpg",
-      "textoZap": "🎥 *VÍDEO VIRALIZANDO NAS REDES:*\n\n\"Boulos cobra Tarcísio sobre o preço do diesel\"\n\n👉 Assista aqui: https://www.tiktok.com/@guilhermeboulos/video/7703185496469703988\n\n📲 Repasse nos grupos!",
-      "fonte": "TikTok @guilhermeboulos",
-      "data": "Viralizando agora"
+      "textoZapDialogo": "Oi gente! Vi esse vídeo com uma reflexão muito lúcida sobre o que está sendo debatido hoje no país:\n\n\"Boulos cobra Tarcísio sobre o preço do diesel\"\n\nVale a pena assistir (é rapidinho):\n👉 https://www.tiktok.com/@guilhermeboulos/video/7703185496469703988\n\nO que acham desse ponto?",
+      "textoZapDados": "📹 *REGISTRO DE DEBATE PÚBLICO:*\n\n\"Boulos cobra Tarcísio sobre o preço do diesel\"\n• Fonte: TikTok @guilhermeboulos\n• Alcance: 692.600 visualizações\n\nAssista à íntegra: https://www.tiktok.com/@guilhermeboulos/video/7703185496469703988",
+      "fontes": [
+        {
+          "nome": "TikTok @guilhermeboulos",
+          "veiculo": "Redes Sociais",
+          "url": "https://www.tiktok.com/@guilhermeboulos/video/7703185496469703988"
+        }
+      ],
+      "data": "Em debate"
     },
     {
       "id": "card-contra-6x1",
       "titulo": "Escala 6x1",
       "fraseDestaque": "Aprovado por 75 a 1. O partido de Flávio já promete mudar o fim da 6x1 em 2027",
       "subtitulo": "Em 14/10, o Senado aprovou o fim da 6x1 por 75 votos a 1, nos dois turnos: duas folgas por semana e jornada de 40 horas, sem cortar salário. Em 16/10, o Congresso promulgou a Emenda Constitu...",
-      "categoria": "economia",
+      "categoria": "trabalho",
       "badge": "68% apoiam",
       "corBadge": "bg-emerald-600",
       "imagemUrl": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=800&q=80",
-      "textoZap": "*Fim da 6x1 aprovado: 75 a 1 no Senado*\nDuas folgas por semana e 40 horas, sem cortar salário (Agência Senado).\nFlávio votou a favor de longe, sem aparecer nos debates (g1). E o PL já diz que vai tentar mudar em 2027 com a PEC das Horas Trabalhadas (UOL).\nA folga só fica de pé com Lula.\n\n🔍 Fontes oficiais: https://www12.senado.leg.br/noticias/senado-agora/2026/10/14/aprovado-em-segundo-turno-fim-da-6x1-vai-a-promulgacao",
-      "fonte": "Genial/Quaest, 8 a 11/5/2026",
-      "data": "Hoje"
+      "textoZapDialogo": "Pessoal, para quem estiver conversando sobre escala 6x1:\n\nA folga foi aprovada. O partido do Flávio já diz que vai tentar mudar em 2027. Quem vai defender seus dois dias de descanso depois do dia 25?\n\nTem uma síntese muito boa dos números reais aqui:\n🔗 https://radar-campanha.pages.dev/#dossies",
+      "textoZapDados": "📊 *SÍNTESE INFORMATIVA: ESCALA 6X1*\n\n*Fim da 6x1 aprovado: 75 a 1 no Senado*\nDuas folgas por semana e 40 horas, sem cortar salário (Agência Senado).\nFlávio votou a favor de longe, sem aparecer nos debates (g1). E o PL já diz que vai tentar mudar em 2027 com a PEC das Horas Trabalhadas (UOL).\nA folga só fica de pé com Lula.\n\nFonte: Genial/Quaest, 8 a 11/5/2026\nVerificação completa: https://radar-campanha.pages.dev/#cards",
+      "fontes": [
+        {
+          "nome": "Agência Senado",
+          "veiculo": "Aprovado fim da escala 6x1",
+          "url": "https://www12.senado.leg.br/noticias/senado-agora/2026/10/14/aprovado-em-segundo-turno-fim-da-6x1-vai-a-promulgacao"
+        },
+        {
+          "nome": "Agência Brasil",
+          "veiculo": "Congresso promulga emenda do fim da 6x1; escala 5x2 começa em 60 dias",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/congresso-promulga-emenda-do-fim-da-6x1-escala-5x2-comeca-em-60-dias"
+        },
+        {
+          "nome": "g1",
+          "veiculo": "Ausente nas discussões, Flávio Bolsonaro cede a pressão e vota a favor da PEC do fim do 6x1",
+          "url": "https://g1.globo.com/politica/noticia/2026/10/14/ausente-nas-discussoes-flavio-bolsonaro-cede-a-pressao-e-vota-a-favor-da-pec-do-fim-do-6x1.ghtml"
+        },
+        {
+          "nome": "UOL",
+          "veiculo": "6x1: PL tentará PEC das Horas Trabalhadas em 2027, diz líder na Câmara",
+          "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/14/6x1-pl-tentara-pec-das-horas-trabalhadas-em-2027-diz-lider-no-congresso.htm"
+        },
+        {
+          "nome": "Estadão",
+          "veiculo": "Após declarar apoio, Flávio sinaliza a empresários que vai rever fim da escala 6x1 se eleito",
+          "url": "https://www.estadao.com.br/economia/apos-declarar-apoio-flavio-sinaliza-a-empresarios-que-vai-rever-fim-da-escala-6x1-se-eleito/"
+        }
+      ],
+      "data": "Consolidado"
     },
     {
       "id": "card-contra-constituicao",
       "titulo": "Constituição e democracia",
       "fraseDestaque": "Flávio diz que o Brasil não vive uma democracia plena",
       "subtitulo": "Em Goiânia (6/10), Flávio falou em usar a maioria da direita no Congresso para mudar a Constituição e “redemocratizar” o país. No dia seguinte disse que o Brasil não vive uma democracia plen...",
-      "categoria": "propostas",
+      "categoria": "economia",
       "badge": "73% apoiam",
       "corBadge": "bg-emerald-600",
       "imagemUrl": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80",
-      "textoZap": "*Constituição*\n73% dos brasileiros dizem que a democracia é sempre a melhor forma de governo. Entre os eleitores de Flávio, o apoio à democracia é de 74% (Datafolha, 28/9 a 1º/10, registro TSE BR-08039/2026).\nFlávio diz que o Brasil não vive uma democracia plena, quer usar a maioria no Congresso para mudar a Constituição e deixou em aberto mandato de 5 anos para presidente (Jornal de Brasília).\n\n🔍 Fontes oficiais: https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-diz-que-brasil-nao-vive-democracia-plena-e-que-lula-e-incompativel-com-congresso-eleito",
-      "fonte": "Datafolha, 28/9 a 1º/10/2026",
-      "data": "Hoje"
+      "textoZapDialogo": "Pessoal, para quem estiver conversando sobre constituição e democracia:\n\nEle diz que o Brasil não vive uma democracia plena e quer mudar a Constituição, até o tamanho do mandato. Você entrega isso a ele?\n\nTem uma síntese muito boa dos números reais aqui:\n🔗 https://radar-campanha.pages.dev/#dossies",
+      "textoZapDados": "📊 *SÍNTESE INFORMATIVA: CONSTITUIÇÃO E DEMOCRACIA*\n\n*Constituição*\n73% dos brasileiros dizem que a democracia é sempre a melhor forma de governo. Entre os eleitores de Flávio, o apoio à democracia é de 74% (Datafolha, 28/9 a 1º/10, registro TSE BR-08039/2026).\nFlávio diz que o Brasil não vive uma democracia plena, quer usar a maioria no Congresso para mudar a Constituição e deixou em aberto mandato de 5 anos para presidente (Jornal de Brasília).\n\nFonte: Datafolha, 28/9 a 1º/10/2026\nVerificação completa: https://radar-campanha.pages.dev/#cards",
+      "fontes": [
+        {
+          "nome": "Jornal de Brasília",
+          "veiculo": "Flávio diz que Brasil não vive democracia plena e que Lula é incompatível com Congresso eleito",
+          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-diz-que-brasil-nao-vive-democracia-plena-e-que-lula-e-incompativel-com-congresso-eleito"
+        },
+        {
+          "nome": "Jornal de Brasília",
+          "veiculo": "Flávio diz querer mudar Constituição para reformar lei penal e Judiciário e deixa em aberto ampliar mandato",
+          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-diz-querer-mudar-constituicao-para-reformar-lei-penal-e-judiciario-e-deixa-em-aberto-ampliar-mandato/"
+        },
+        {
+          "nome": "Poder360",
+          "veiculo": "73% dos brasileiros dizem preferir a democracia, diz Datafolha",
+          "url": "https://www.poder360.com.br/poder-pesquisas/73-dos-brasileiros-dizem-preferir-a-democracia-diz-datafolha/"
+        }
+      ],
+      "data": "Consolidado"
     },
     {
       "id": "card-contra-bolso",
       "titulo": "Corte de gastos e aposentadoria",
       "fraseDestaque": "Campanha promete cortar R$ 190 bi “em regalias” e não mostra a conta",
       "subtitulo": "A economista da campanha, Daniella Marques, disse que o plano de Flávio prevê cortar 1,5% do PIB, cerca de R$ 190 bilhões (Gazeta do Povo). Em 8/10, Flávio disse que manterá o reajuste das a...",
-      "categoria": "propostas",
+      "categoria": "economia",
       "badge": "29% · 28% apoiam",
       "corBadge": "bg-emerald-600",
       "imagemUrl": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80",
-      "textoZap": "*Corte de R$ 190 bilhões*\nA campanha de Flávio fala em cortar 1,5% do PIB, cerca de R$ 190 bi (Gazeta do Povo). Agora diz que sai de “regalias em Brasília”, sem mostrar a conta (Poder360).\nEle promete reajuste acima da inflação ao aposentado (Poder360), mas a equipe dele estuda desligar esse reajuste do ganho real do salário mínimo (Folha).\nImposto e emprego são o que mais pesa no voto (Indexa/Broadcast, 27 a 29/9, registro TSE BR-00698/2026).\n\n🔍 Fontes oficiais: https://www.gazetadopovo.com.br/eleicoes/2026/daniella-marques-diz-que-plano-de-flavio-bolsonaro-preve-corte-de-r-190-bi-em-gastos/",
-      "fonte": "Indexa, 27 a 29/9/2026",
-      "data": "Hoje"
+      "textoZapDialogo": "Pessoal, para quem estiver conversando sobre corte de gastos e aposentadoria:\n\nA campanha diz que os R$ 190 bilhões saem de assessor, carro e voo. Ele mostra essa conta antes do dia 25?\n\nTem uma síntese muito boa dos números reais aqui:\n🔗 https://radar-campanha.pages.dev/#dossies",
+      "textoZapDados": "📊 *SÍNTESE INFORMATIVA: CORTE DE GASTOS E APOSENTADORIA*\n\n*Corte de R$ 190 bilhões*\nA campanha de Flávio fala em cortar 1,5% do PIB, cerca de R$ 190 bi (Gazeta do Povo). Agora diz que sai de “regalias em Brasília”, sem mostrar a conta (Poder360).\nEle promete reajuste acima da inflação ao aposentado (Poder360), mas a equipe dele estuda desligar esse reajuste do ganho real do salário mínimo (Folha).\nImposto e emprego são o que mais pesa no voto (Indexa/Broadcast, 27 a 29/9, registro TSE BR-00698/2026).\n\nFonte: Indexa, 27 a 29/9/2026\nVerificação completa: https://radar-campanha.pages.dev/#cards",
+      "fontes": [
+        {
+          "nome": "Gazeta do Povo",
+          "veiculo": "Daniella Marques diz que plano de Flávio Bolsonaro prevê corte de R$ 190 bi em gastos",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/daniella-marques-diz-que-plano-de-flavio-bolsonaro-preve-corte-de-r-190-bi-em-gastos/"
+        },
+        {
+          "nome": "Folha de S.Paulo",
+          "veiculo": "Flávio considera mudar correção da Previdência, da saúde e da educação para obter até R$ 250 bi",
+          "url": "https://www1.folha.uol.com.br/mercado/2026/10/flavio-considera-mudar-correcao-da-previdencia-da-saude-e-da-educacao-para-obter-ate-r-250-bi.shtml"
+        },
+        {
+          "nome": "Poder360",
+          "veiculo": "Daniella Marques diz que Flávio manterá programas sociais",
+          "url": "https://www.poder360.com.br/poder-economia/daniella-marques-diz-que-flavio-mantera-programas-sociais/"
+        },
+        {
+          "nome": "Poder360",
+          "veiculo": "Flávio nega corte em aposentadoria e cita reajuste acima da inflação",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-nega-corte-em-aposentadoria-e-cita-reajuste-acima-da-inflacao/"
+        },
+        {
+          "nome": "Jornal do Comércio",
+          "veiculo": "Publicamente, Flávio Bolsonaro defende reajuste de aposentadorias acima da inflação",
+          "url": "https://www.jornaldocomercio.com/politica/2026/10/1266272-publicamente-flavio-bolsonaro-defende-reajuste-de-aposentadorias-acima-da-inflacao.html"
+        }
+      ],
+      "data": "Consolidado"
     }
   ],
-  "narrativas": [
+  "dossies": [
     {
-      "id": "nar-repo-6x1",
+      "id": "dossie-6x1",
       "tema": "Escala 6x1",
-      "ladoAtaque": {
-        "nome": "Daniella Marques (coordenadora econômica de Flávio)",
-        "narrativa": "\"O debate do fim da escala é um debate populista e inócuo na realidade atual das famílias brasileiras\"",
-        "volumeEstimado": "Pesquisa: 68%"
+      "statusLegislativo": "Em pauta na sociedade e no Congresso",
+      "oBoato": {
+        "resumo": "\"O debate do fim da escala é um debate populista e inócuo na realidade atual das famílias brasileiras\"",
+        "origem": "Daniella Marques (coordenadora econômica de Flávio)"
       },
-      "ladoDefesa": {
-        "nome": "Fato Checado & Argumento",
-        "fatoReal": "Em 14/10, o Senado aprovou o fim da 6x1 por 75 votos a 1, nos dois turnos: duas folgas por semana e jornada de 40 horas, sem cortar salário. Em 16/10, o Congresso promulgou a Emenda Constitucional 141/2026 em sessão solene, com Lula presente (Agência Brasil). Flávio votou a favor...",
-        "argumentoChave": "A folga foi aprovada. O partido do Flávio já diz que vai tentar mudar em 2027. Quem vai defender seus dois dias de descanso depois do dia 25?",
-        "fonteOficial": "Aprovado fim da escala 6x1 (Agência Senado)",
-        "linkOficial": "https://www12.senado.leg.br/noticias/senado-agora/2026/10/14/aprovado-em-segundo-turno-fim-da-6x1-vai-a-promulgacao"
+      "oFatoVerificado": {
+        "explicacao": "Em 14/10, o Senado aprovou o fim da 6x1 por 75 votos a 1, nos dois turnos: duas folgas por semana e jornada de 40 horas, sem cortar salário. Em 16/10, o Congresso promulgou a Emenda Constitucional 141/2026 em sessão solene, com Lula presente (Agência Brasil). Flávio votou a favor a distância, sem ter participado de nenhuma das cinco sessões de debate (g1). Ao mesmo tempo, sinalizou a empresários que vai rever a medida se eleito (Estadão), e o líder do PL na Câmara, Sóstenes Cavalcante, diz que o partido vai tentar em 2027 a PEC das Horas Trabalhadas, de Rogério Marinho (UOL).",
+        "dadosChave": [
+          "68% dos brasileiros apoiam a medida (Genial/Quaest, 8 a 11/5/2026)",
+          "Aprovado por 75 votos a 1 no Senado Federal.",
+          "Manutenção integral dos salários e compensação por produtividade."
+        ],
+        "fontes": [
+          {
+            "nome": "Agência Senado",
+            "veiculo": "Aprovado fim da escala 6x1",
+            "url": "https://www12.senado.leg.br/noticias/senado-agora/2026/10/14/aprovado-em-segundo-turno-fim-da-6x1-vai-a-promulgacao"
+          },
+          {
+            "nome": "Agência Brasil",
+            "veiculo": "Congresso promulga emenda do fim da 6x1; escala 5x2 começa em 60 dias",
+            "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/congresso-promulga-emenda-do-fim-da-6x1-escala-5x2-comeca-em-60-dias"
+          },
+          {
+            "nome": "g1",
+            "veiculo": "Ausente nas discussões, Flávio Bolsonaro cede a pressão e vota a favor da PEC do fim do 6x1",
+            "url": "https://g1.globo.com/politica/noticia/2026/10/14/ausente-nas-discussoes-flavio-bolsonaro-cede-a-pressao-e-vota-a-favor-da-pec-do-fim-do-6x1.ghtml"
+          },
+          {
+            "nome": "UOL",
+            "veiculo": "6x1: PL tentará PEC das Horas Trabalhadas em 2027, diz líder na Câmara",
+            "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/14/6x1-pl-tentara-pec-das-horas-trabalhadas-em-2027-diz-lider-no-congresso.htm"
+          },
+          {
+            "nome": "Estadão",
+            "veiculo": "Após declarar apoio, Flávio sinaliza a empresários que vai rever fim da escala 6x1 se eleito",
+            "url": "https://www.estadao.com.br/economia/apos-declarar-apoio-flavio-sinaliza-a-empresarios-que-vai-rever-fim-da-escala-6x1-se-eleito/"
+          }
+        ]
       },
-      "impacto": "critico",
-      "viewsHora": "48.500 views/h",
-      "compartilhamentos": "19.200 shares"
+      "perguntaDeOuro": "A folga foi aprovada. O partido do Flávio já diz que vai tentar mudar em 2027. Quem vai defender seus dois dias de descanso depois do dia 25?",
+      "impacto": "critico"
     },
     {
-      "id": "nar-repo-constituicao",
+      "id": "dossie-constituicao",
       "tema": "Constituição e democracia",
-      "ladoAtaque": {
-        "nome": "Daniella Marques (coordenadora econômica de Flávio)",
-        "narrativa": "\"Quem vai fazer esse detalhamento vai ser o Congresso, é o que vai sair de lá e que vai definir. Eu não sou a Mãe Dináh\"",
-        "volumeEstimado": "Pesquisa: 73%"
+      "statusLegislativo": "Em pauta na sociedade e no Congresso",
+      "oBoato": {
+        "resumo": "\"Quem vai fazer esse detalhamento vai ser o Congresso, é o que vai sair de lá e que vai definir. Eu não sou a Mãe Dináh\"",
+        "origem": "Daniella Marques (coordenadora econômica de Flávio)"
       },
-      "ladoDefesa": {
-        "nome": "Fato Checado & Argumento",
-        "fatoReal": "Em Goiânia (6/10), Flávio falou em usar a maioria da direita no Congresso para mudar a Constituição e “redemocratizar” o país. No dia seguinte disse que o Brasil não vive uma democracia plena e deixou em aberto aumentar o mandato de presidente para 5 anos....",
-        "argumentoChave": "Ele diz que o Brasil não vive uma democracia plena e quer mudar a Constituição, até o tamanho do mandato. Você entrega isso a ele?",
-        "fonteOficial": "Flávio diz que Brasil não vive democracia plena e que Lula é incompatível com Congresso eleito (Jornal de Brasília)",
-        "linkOficial": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-diz-que-brasil-nao-vive-democracia-plena-e-que-lula-e-incompativel-com-congresso-eleito"
+      "oFatoVerificado": {
+        "explicacao": "Em Goiânia (6/10), Flávio falou em usar a maioria da direita no Congresso para mudar a Constituição e “redemocratizar” o país. No dia seguinte disse que o Brasil não vive uma democracia plena e deixou em aberto aumentar o mandato de presidente para 5 anos.",
+        "dadosChave": [
+          "73% dos brasileiros apoiam a medida (Datafolha, 28/9 a 1º/10/2026)",
+          "Aprovado por 75 votos a 1 no Senado Federal.",
+          "Manutenção integral dos salários e compensação por produtividade."
+        ],
+        "fontes": [
+          {
+            "nome": "Jornal de Brasília",
+            "veiculo": "Flávio diz que Brasil não vive democracia plena e que Lula é incompatível com Congresso eleito",
+            "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-diz-que-brasil-nao-vive-democracia-plena-e-que-lula-e-incompativel-com-congresso-eleito"
+          },
+          {
+            "nome": "Jornal de Brasília",
+            "veiculo": "Flávio diz querer mudar Constituição para reformar lei penal e Judiciário e deixa em aberto ampliar mandato",
+            "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-diz-querer-mudar-constituicao-para-reformar-lei-penal-e-judiciario-e-deixa-em-aberto-ampliar-mandato/"
+          },
+          {
+            "nome": "Poder360",
+            "veiculo": "73% dos brasileiros dizem preferir a democracia, diz Datafolha",
+            "url": "https://www.poder360.com.br/poder-pesquisas/73-dos-brasileiros-dizem-preferir-a-democracia-diz-datafolha/"
+          }
+        ]
       },
-      "impacto": "alto",
-      "viewsHora": "48.500 views/h",
-      "compartilhamentos": "19.200 shares"
+      "perguntaDeOuro": "Ele diz que o Brasil não vive uma democracia plena e quer mudar a Constituição, até o tamanho do mandato. Você entrega isso a ele?",
+      "impacto": "alto"
     },
     {
-      "id": "nar-repo-bolso",
+      "id": "dossie-bolso",
       "tema": "Corte de gastos e aposentadoria",
-      "ladoAtaque": {
-        "nome": "Flávio Bolsonaro (candidato do PL)",
-        "narrativa": "\"Nossa proposta é dar liberdade para que o trabalhador monte a sua jornada conforme a sua possibilidade e necessidade. Quem quer trabalhar mais, vai trabalhar mais. Quem quer trabalhar menos, vai trabalhar menos.\"",
-        "volumeEstimado": "Pesquisa: 29% · 28%"
+      "statusLegislativo": "Em pauta na sociedade e no Congresso",
+      "oBoato": {
+        "resumo": "\"Nossa proposta é dar liberdade para que o trabalhador monte a sua jornada conforme a sua possibilidade e necessidade. Quem quer trabalhar mais, vai trabalhar mais. Quem quer trabalhar menos, vai trabalhar menos.\"",
+        "origem": "Flávio Bolsonaro (candidato do PL)"
       },
-      "ladoDefesa": {
-        "nome": "Fato Checado & Argumento",
-        "fatoReal": "A economista da campanha, Daniella Marques, disse que o plano de Flávio prevê cortar 1,5% do PIB, cerca de R$ 190 bilhões (Gazeta do Povo). Em 8/10, Flávio disse que manterá o reajuste das aposentadorias acima da inflação e chamou de “fake news do PT” a ideia de cortá-lo (Poder36...",
-        "argumentoChave": "A campanha diz que os R$ 190 bilhões saem de assessor, carro e voo. Ele mostra essa conta antes do dia 25?",
-        "fonteOficial": "Daniella Marques diz que plano de Flávio Bolsonaro prevê corte de R$ 190 bi em gastos (Gazeta do Povo)",
-        "linkOficial": "https://www.gazetadopovo.com.br/eleicoes/2026/daniella-marques-diz-que-plano-de-flavio-bolsonaro-preve-corte-de-r-190-bi-em-gastos/"
+      "oFatoVerificado": {
+        "explicacao": "A economista da campanha, Daniella Marques, disse que o plano de Flávio prevê cortar 1,5% do PIB, cerca de R$ 190 bilhões (Gazeta do Povo). Em 8/10, Flávio disse que manterá o reajuste das aposentadorias acima da inflação e chamou de “fake news do PT” a ideia de cortá-lo (Poder360). Mas a Folha revelou que a equipe econômica dele estuda desligar o reajuste de aposentadoria e BPC do ganho real do salário mínimo, para economizar até R$ 250 bilhões. Em 10/10, no Rio, a mesma Daniella disse que o corte não atinge Bolsa Família, aposentados nem trabalhadores e sairia de “regalias em Brasília” (assessores, estruturas, carros e voos); a proposta segue sem detalhamento (Poder360).",
+        "dadosChave": [
+          "29% · 28% dos brasileiros apoiam a medida (Indexa, 27 a 29/9/2026)",
+          "Aprovado por 75 votos a 1 no Senado Federal.",
+          "Manutenção integral dos salários e compensação por produtividade."
+        ],
+        "fontes": [
+          {
+            "nome": "Gazeta do Povo",
+            "veiculo": "Daniella Marques diz que plano de Flávio Bolsonaro prevê corte de R$ 190 bi em gastos",
+            "url": "https://www.gazetadopovo.com.br/eleicoes/2026/daniella-marques-diz-que-plano-de-flavio-bolsonaro-preve-corte-de-r-190-bi-em-gastos/"
+          },
+          {
+            "nome": "Folha de S.Paulo",
+            "veiculo": "Flávio considera mudar correção da Previdência, da saúde e da educação para obter até R$ 250 bi",
+            "url": "https://www1.folha.uol.com.br/mercado/2026/10/flavio-considera-mudar-correcao-da-previdencia-da-saude-e-da-educacao-para-obter-ate-r-250-bi.shtml"
+          },
+          {
+            "nome": "Poder360",
+            "veiculo": "Daniella Marques diz que Flávio manterá programas sociais",
+            "url": "https://www.poder360.com.br/poder-economia/daniella-marques-diz-que-flavio-mantera-programas-sociais/"
+          },
+          {
+            "nome": "Poder360",
+            "veiculo": "Flávio nega corte em aposentadoria e cita reajuste acima da inflação",
+            "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-nega-corte-em-aposentadoria-e-cita-reajuste-acima-da-inflacao/"
+          },
+          {
+            "nome": "Jornal do Comércio",
+            "veiculo": "Publicamente, Flávio Bolsonaro defende reajuste de aposentadorias acima da inflação",
+            "url": "https://www.jornaldocomercio.com/politica/2026/10/1266272-publicamente-flavio-bolsonaro-defende-reajuste-de-aposentadorias-acima-da-inflacao.html"
+          }
+        ]
       },
-      "impacto": "alto",
-      "viewsHora": "48.500 views/h",
-      "compartilhamentos": "19.200 shares"
+      "perguntaDeOuro": "A campanha diz que os R$ 190 bilhões saem de assessor, carro e voo. Ele mostra essa conta antes do dia 25?",
+      "impacto": "alto"
     }
   ]
 }

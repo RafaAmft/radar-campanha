@@ -1,75 +1,44 @@
-# 📡 Radar da Mobilização (Inspirado no Radar da Virada)
+# 🌐 Nexo Popular
 
-Plataforma de alta performance para salas de situação, campanhas e mobilização social, inspirada na dinâmica do [Radar da Virada](https://radardavirada.pages.dev/).
+Plataforma de **inteligência cidadã, dados abertos e mobilização social permanente**, desenvolvida para fortalecer o debate público com dados verificados e ferramentas de diálogo para o WhatsApp.
 
-🌐 **Deploy ao vivo:** [https://radar-campanha.pages.dev/](https://radar-campanha.pages.dev/)
+🌐 **Acesse ao vivo:** [https://radar-campanha.pages.dev/](https://radar-campanha.pages.dev/)
 
-O projeto foi construído em **Next.js 15 (App Router)** com **Tailwind CSS**, **TypeScript** e **Lucide Icons**, com foco total em experiência mobile e compartilhamento instantâneo via WhatsApp.
+---
+
+## 🎯 Da Campanha à Militância Esclarecida
+
+O **Nexo Popular** nasceu da evolução dos radares eleitorais para uma ferramenta de cidadania ativa e permanente:
+* **Sem linguagem militarizada:** Em vez de "soldados e trincheira", empoderamos cidadãos conscientes com repertório e dados.
+* **Seletor de Tom no WhatsApp:** Todo material possui opção de envio em **Modo Diálogo** (empático, reflexivo, sem jargões para conversar com a família) ou **Modo Fatos & Dados** (técnico, com números e artigos de lei).
+* **Pautas no Congresso & Pressão Cidadã:** Acompanhamento das disputas legislativas ativas (ex: *Escala 5x2*, *Regulamentação das Bets*, *Isenção do IR*) com link direto para enquetes oficiais do **e-Cidadania** do Senado e da Câmara.
+* **Dossiês Mito vs. Fato com a "Pergunta de Ouro":** Método pedagógico para desarmar a desinformação através de perguntas reflexivas em vez de confronto direto.
+
+---
+
+## 🧱 Arquitetura e Módulos
+
+| Módulo | Componente | Função |
+| :--- | :--- | :--- |
+| **Header com Busca** | `src/components/Header.tsx` | Barra de busca instantânea que filtra cards, dossiês e notícias por palavra-chave |
+| **Pautas Legislativas** | `src/components/BriefingLegislativo.tsx` | Painel de pressão cidadã com status legislativo e links de consulta pública |
+| **Kit de Diálogo** | `src/components/KitConversa.tsx` | Cards temáticos com seletor de tom (Diálogo vs Dados), download e envio no WhatsApp |
+| **Dossiês Mito vs Fato** | `src/components/DossiesMitoFato.tsx` | Pedagogia em 3 passos: o boato, os dados reais e a Pergunta de Ouro socrática |
+| **Panorama de Imprensa** | `src/components/PainelAgora.tsx` | Feed em tempo real das principais matérias políticas dos portais via RSS |
+| **Rede de Criadores** | `src/components/RedeCriadores.tsx` | Monitor ao vivo de canais independentes com status de publicação em 24h/72h |
 
 ---
 
 ## 🚀 Como Executar Localmente
 
-No terminal, dentro da pasta `radar-campanha`:
-
 ```bash
-# 1. Entrar na pasta do projeto
 cd radar-campanha
-
-# 2. Iniciar o servidor de desenvolvimento
 npm run dev
 ```
 
-Abra [http://localhost:3000](http://localhost:3000) no seu navegador ou acesse pelo celular na mesma rede Wi-Fi.
+Abra [http://localhost:3000](http://localhost:3000) no navegador.
 
-Para gerar a versão de produção otimizada:
+Para atualizar os dados ao vivo e fazer o deploy para a Cloudflare:
 ```bash
-npm run build
-npm run start
+npm run deploy
 ```
-
----
-
-## 🗂️ Onde os Dados Ficam e Como Editar
-
-Todos os dados atuais estão concentrados em um único arquivo de fácil leitura e edição:
-
-📁 **`src/data/mockData.ts`**
-
-Neste arquivo você pode alterar:
-- **`METADATA_GERAL`**: Nome do radar, slogan, carimbo de horário e contadores.
-- **`MOCK_CARDS`**: Lista de cards da seção *"Pra Mandar Agora"*. Cada card possui:
-  - Título e frase de impacto
-  - Categoria (`urgente`, `fakenews`, `economia`, `propostas`, `social`)
-  - URL da imagem
-  - Texto completo formatado para WhatsApp com emojis e quebras de linha
-  - Fonte e data
-- **`MOCK_NARRATIVAS`**: Dados do comparador *"Do que cada lado fala"*:
-  - O que a oposição/boato diz
-  - O fato real com argumento-chave e link da fonte
-  - Volume de menções e métricas de impacto
-- **`MOCK_NOTICIAS`**: Feed cronológico do *"Agora / Painel da Imprensa"*:
-  - Horário, portal (G1, Folha, UOL, etc.), título e link original
-- **`MOCK_CANAIS`**: Monitor da *"Rede de Criadores"*:
-  - Nome do canal, plataforma, seguidores e status (`24h`, `72h` ou `inativo`)
-
----
-
-## 🧱 Componentes Principais
-
-| Componente | Arquivo | Função |
-| :--- | :--- | :--- |
-| **Header** | `src/components/Header.tsx` | Barra fixa com badge "AO VIVO", horário e âncoras rápidas |
-| **HeroAlert** | `src/components/HeroAlert.tsx` | Alerta urgente do dia e contadores em tempo real |
-| **PraMandarAgora** | `src/components/PraMandarAgora.tsx` | Cards com 1-clique para WhatsApp (`wa.me/?text=`), download e cópia |
-| **GuerraNarrativa** | `src/components/GuerraNarrativa.tsx` | Comparativo lado a lado de narrativas com botão de copiar resposta |
-| **PainelAgora** | `src/components/PainelAgora.tsx` | Feed de notícias da imprensa com badges de urgência e links |
-| **RedeCriadores** | `src/components/RedeCriadores.tsx` | Monitor de atividade dos canais parceiros (verde 24h, amarelo 72h, cinza inativo) |
-
----
-
-## 🔌 Próximo Passo: Conectar com Google Sheets
-
-Para que a equipe de redação alimente o radar sem precisar mexer em código:
-1. Criar uma planilha pública ou com API Service Account no Google Cloud.
-2. Trocar a importação de `mockData.ts` em `src/app/page.tsx` por uma rota `fetch` com revalidação automática a cada 60 segundos (`next: { revalidate: 60 }`).

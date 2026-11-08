@@ -13,18 +13,18 @@ const geistMono = Geist_Mono({
 });
 
 export const viewport: Viewport = {
-  themeColor: '#dc2626',
+  themeColor: '#059669',
   width: 'device-width',
   initialScale: 1,
 };
 
 export const metadata: Metadata = {
-  title: 'Radar da Mobilização | Cards e Notícias para WhatsApp',
-  description: 'Destaques do dia, guerra de narrativas e cards com dados oficiais prontos para baixar e mandar no WhatsApp.',
+  title: 'Nexo Popular | Inteligência Cidadã e Diálogo Social',
+  description: 'Dados oficiais, pautas do Congresso e ferramentas de diálogo no WhatsApp para uma cidadania esclarecida e ativa.',
   openGraph: {
-    title: 'Radar da Mobilização | Cards Prontos para o WhatsApp',
-    description: 'Destaques do dia, guerra de narrativas e cards com dados oficiais prontos para baixar e mandar no WhatsApp.',
-    siteName: 'Radar da Mobilização',
+    title: 'Nexo Popular | Inteligência Cidadã para o WhatsApp',
+    description: 'Dados oficiais, pautas em disputa no Congresso e argumentos verificados para conversar com a família e colegas.',
+    siteName: 'Nexo Popular',
     type: 'website',
   },
 };

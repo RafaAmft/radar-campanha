@@ -1,4 +1,10 @@
-export type CategoriaCard = 'urgente' | 'economia' | 'fakenews' | 'propostas' | 'social';
+export type CategoriaCard = 'trabalho' | 'economia' | 'fakenews' | 'saude' | 'legislativo';
+
+export interface FonteItem {
+  nome: string;
+  veiculo: string;
+  url: string;
+}
 
 export interface CardItem {
   id: string;
@@ -9,8 +15,10 @@ export interface CardItem {
   badge: string;
   corBadge: string;
   imagemUrl: string;
-  textoZap: string;
-  fonte?: string;
+  // Dois tons de mensagem para WhatsApp
+  textoZapDialogo: string; // Tom amigável, empático, para familiares e colegas
+  textoZapDados: string;   // Tom técnico com dados, fontes e artigos oficiais
+  fontes: FonteItem[];
   data: string;
 }
 
@@ -25,24 +33,33 @@ export interface NoticiaItem {
   categoria: string;
 }
 
-export interface NarrativaItem {
+export interface DossieItem {
   id: string;
   tema: string;
-  ladoAtaque: {
-    nome: string;
-    narrativa: string;
-    volumeEstimado: string;
+  statusLegislativo?: string;
+  oBoato: {
+    resumo: string;
+    origem: string;
   };
-  ladoDefesa: {
-    nome: string;
-    fatoReal: string;
-    argumentoChave: string;
-    fonteOficial: string;
-    linkOficial?: string;
+  oFatoVerificado: {
+    explicacao: string;
+    dadosChave: string[];
+    fontes: FonteItem[];
   };
+  perguntaDeOuro: string; // Pergunta socrática para abrir diálogo sem briga
   impacto: 'critico' | 'alto' | 'moderado';
-  viewsHora: string;
-  compartilhamentos: string;
+}
+
+export interface PautaAcaoItem {
+  id: string;
+  pauta: string;
+  status: string;
+  contexto: string;
+  acaoCidada: {
+    tipo: 'votacao' | 'abaixo_assinado' | 'contato_parlamentar';
+    textoBotao: string;
+    url: string;
+  };
 }
 
 export interface CanalItem {
