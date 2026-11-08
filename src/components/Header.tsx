@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Layers, Search, MessageSquare, BookOpen, Vote, Newspaper, Users, Sparkles } from 'lucide-react';
+import { Layers, Search, MessageSquare, BookOpen, Newspaper, Users, Flame, Play, ShieldAlert } from 'lucide-react';
 import liveFeeds from '@/data/liveFeeds.json';
 import { METADATA_GERAL } from '@/data/mockData';
 
@@ -67,39 +67,39 @@ export default function Header({ termoBusca = '', setTermoBusca }: HeaderProps) 
         {/* Quick Anchor Navigation */}
         <nav className="flex items-center gap-1.5 sm:gap-2 text-xs font-medium overflow-x-auto pt-2.5 mt-2 border-t border-neutral-900 scrollbar-none">
           <a
-            href="#acao"
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-amber-500/10 text-amber-300 border border-amber-500/30 hover:bg-amber-500/20 transition-colors whitespace-nowrap"
+            href="#assuntos"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-500/10 text-emerald-300 border border-emerald-500/30 hover:bg-emerald-500/20 transition-colors whitespace-nowrap"
           >
-            <Vote className="w-3.5 h-3.5 text-amber-400" />
-            <span>Pautas no Congresso</span>
-          </a>
-          <a
-            href="#cards"
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 hover:bg-emerald-500/20 transition-colors whitespace-nowrap"
-          >
-            <MessageSquare className="w-3.5 h-3.5 text-emerald-400" />
-            <span>Kit de Diálogo</span>
-          </a>
-          <a
-            href="#dossies"
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-neutral-900 text-neutral-300 hover:bg-neutral-800 border border-neutral-800 transition-colors whitespace-nowrap"
-          >
-            <BookOpen className="w-3.5 h-3.5 text-blue-400" />
-            <span>Mito vs. Fato</span>
+            <Flame className="w-3.5 h-3.5 text-emerald-400" />
+            <span>Assuntos do Momento</span>
           </a>
           <a
             href="#agora"
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-neutral-900 text-neutral-300 hover:bg-neutral-800 border border-neutral-800 transition-colors whitespace-nowrap"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-sky-500/10 text-sky-300 border border-sky-500/20 hover:bg-sky-500/20 transition-colors whitespace-nowrap"
           >
             <Newspaper className="w-3.5 h-3.5 text-sky-400" />
             <span>Imprensa</span>
           </a>
           <a
-            href="#canais"
+            href="#videos"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-rose-500/10 text-rose-300 border border-rose-500/20 hover:bg-rose-500/20 transition-colors whitespace-nowrap"
+          >
+            <Play className="w-3.5 h-3.5 text-rose-400" />
+            <span>Vídeos por Assunto</span>
+          </a>
+          <a
+            href="#dossies"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-blue-500/10 text-blue-300 border border-blue-500/20 hover:bg-blue-500/20 transition-colors whitespace-nowrap"
+          >
+            <ShieldAlert className="w-3.5 h-3.5 text-blue-400" />
+            <span>Raio-X da Mentira</span>
+          </a>
+          <a
+            href="#cards"
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-neutral-900 text-neutral-300 hover:bg-neutral-800 border border-neutral-800 transition-colors whitespace-nowrap"
           >
-            <Users className="w-3.5 h-3.5 text-purple-400" />
-            <span>Canais em Rede</span>
+            <MessageSquare className="w-3.5 h-3.5 text-emerald-400" />
+            <span>Cards de Zap</span>
           </a>
         </nav>
       </div>

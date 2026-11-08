@@ -1,31 +1,31 @@
 {
-  "geradoEm": "2026-11-08T15:37:49.534Z",
-  "ultimaAtualizacaoFormatada": "Hoje às 12:37",
+  "geradoEm": "2026-11-08T19:10:42.645Z",
+  "ultimaAtualizacaoFormatada": "Hoje às 16:10",
   "noticias": [
     {
       "id": "news-real-1",
-      "hora": "19:10",
+      "hora": "11:26",
       "portal": "CNN Brasil",
-      "titulo": "Juiz do Paraguai decreta prisão preventiva do ex-presidente Santiago Peña",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONFBuemJDWUIxVUdiY25QLWRERURaT2FVbkhZeHpfbVg5Rkl5b0FrdmUzQnppRVB4dFhsQWtLUHJfa0ktRmEzTDRrOVN3TE5JcDh6ZERjWmxvUk5MTnpZc0l1MTdkQ1lzX0pZNHVNUnNIXzBlaUp4aFo0bHB3cVBHd2dUU25waFRIZHYySFRkYnFmYTJaTkNDWGttMHhpOE1VR3dsVlFJNmpmV2plaU1hSHNhSVFZaDVC?oc=5",
+      "titulo": "Novo presidente do Paraguai promete priorizar vítimas do Ueno Bank",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaGw1d0o1NHUtVnVWbEdMdDNQd1pCY3FMUzZ6Y3djblFpc1VEOGRCSnBjZW5fR1hDX245TUJHRkNaMElRMlAzdzJBa25EdHJlTXQteXRPRzNJUjVvckhaRnFucG9UQkgtQ2N0cGhCNEJNYVN3aGNCS1BNM2VSdG9UVWg4TVFxVGJubGxSUlM2XzZBNVFxTkh3Z2RxZHVaTW02NVBTenNBaHV3SXlpVTFr?oc=5",
       "urgente": true,
       "categoria": "Cidadania"
     },
     {
       "id": "news-real-2",
-      "hora": "03:30",
-      "portal": "O GLOBO",
-      "titulo": "Entrevista: 'PEC da Segurança acaba com ilhas de informação ao padronizar e compartilhar dados', diz Ricardo Saadi, presidente do Coaf",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNUDhldFM0X200SjUtMVlnb25XUUtXb0x3dWNvbzlpNjBPNUNjVmluVXVackw2Y1hiSDRGNTkyd2lUUkZVZ1psY25ZQkFaczN6QU9FTk9NUGpVTTNLaXJFZ2JKSzJSMnRLTG8zaFNBbEQ0cHVfVURuYXpiYW5DSjE1dzRBTEZWS3A3OEhtRGJqbXVBeDFzbEM1ZFBteDlucXVLb1ppX0RXVEJaV093TktRLUlDekdVTm9Pd0IxNmtIMlVSRG9OSDR0ZzhfWVo4bXF6akxGVTlYdDk3dFBibFQyWEh3cWhqWHJmZnBQRUt1Y2hVOUJRQ0RDVThuNWlvSEFKTllHSjVQaFNIUmhIczNWWmp1U3NTUTDSAaYCQVVfeXFMTVRzX05wdVNIZmFtZlFEZnRpc05oU2hEN0pubGxPUzhZSVB2UEZDY3JvTHJSeUNsUkczX2JMNHF6aUQ0a2pfdDlUYnRuVVdGY0dxSUJvTVNPc2Q4QlJkOXowQ3VaTnE2THBkTTl0S2hVYlVBcVVueGYxTko3UzBBZzliWUZjR0ttaDh3dU9jaWxJNWRnMzAtVWpyWDdTS2pHUVR3bWhsMDYzRmg5cDQxcmV0eXRKRlB3TDdoNWxsM0xYaUMyRFlpTlRyQjI0dG1NdkVEQzZNU05kbDBtQVpYdk5DdHA4b3A3cXcyNEtQSzJFVENfRnBqalZWYUx4bXF2TkxDSFdWeC1RbVZkTXJJY3Y0Vmd3ZHVsdWRNZmdYLVVCNWc3TjJB?oc=5",
+      "hora": "11:27",
+      "portal": "CNN Brasil",
+      "titulo": "Ana Elisa expõe ameaças de estupro e morte após críticas por usar escolta",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRWdBOW93RHNrSWtMS1B2eUo5eXd0X01PenZoRjRLR3F1QUpqS181SHN2d1ZNNGxjM2ZMMGVHeG9rdDJhU0pUaThGWmdKY1NBRkNZSHlwWThkREFqbVpOVkdEdTVNa1FjdEphRWdDdWRYSkxRQmwyM1JGTGJ4RmtFbHk2eVJvdHVScERSNWRtWHh2d0YwNDlRZmdtQ3Z0bG91OWpxTHY2S0ZqUHBoeXdNMzB3?oc=5",
       "urgente": false,
       "categoria": "Cidadania"
     },
     {
       "id": "news-real-3",
-      "hora": "11:27",
-      "portal": "CNN Brasil",
-      "titulo": "Ana Elisa expõe ameaças de estupro e morte após críticas por usar escolta",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRWdBOW93RHNrSWtMS1B2eUo5eXd0X01PenZoRjRLR3F1QUpqS181SHN2d1ZNNGxjM2ZMMGVHeG9rdDJhU0pUaThGWmdKY1NBRkNZSHlwWThkREFqbVpOVkdEdTVNa1FjdEphRWdDdWRYSkxRQmwyM1JGTGJ4RmtFbHk2eVJvdHVScERSNWRtWHh2d0YwNDlRZmdtQ3Z0bG91OWpxTHY2S0ZqUHBoeXdNMzB3?oc=5",
+      "hora": "03:30",
+      "portal": "O GLOBO",
+      "titulo": "Entrevista: 'PEC da Segurança acaba com ilhas de informação ao padronizar e compartilhar dados', diz Ricardo Saadi, presidente do Coaf",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNUDhldFM0X200SjUtMVlnb25XUUtXb0x3dWNvbzlpNjBPNUNjVmluVXVackw2Y1hiSDRGNTkyd2lUUkZVZ1psY25ZQkFaczN6QU9FTk9NUGpVTTNLaXJFZ2JKSzJSMnRLTG8zaFNBbEQ0cHVfVURuYXpiYW5DSjE1dzRBTEZWS3A3OEhtRGJqbXVBeDFzbEM1ZFBteDlucXVLb1ppX0RXVEJaV093TktRLUlDekdVTm9Pd0IxNmtIMlVSRG9OSDR0ZzhfWVo4bXF6akxGVTlYdDk3dFBibFQyWEh3cWhqWHJmZnBQRUt1Y2hVOUJRQ0RDVThuNWlvSEFKTllHSjVQaFNIUmhIczNWWmp1U3NTUTDSAaYCQVVfeXFMTVRzX05wdVNIZmFtZlFEZnRpc05oU2hEN0pubGxPUzhZSVB2UEZDY3JvTHJSeUNsUkczX2JMNHF6aUQ0a2pfdDlUYnRuVVdGY0dxSUJvTVNPc2Q4QlJkOXowQ3VaTnE2THBkTTl0S2hVYlVBcVVueGYxTko3UzBBZzliWUZjR0ttaDh3dU9jaWxJNWRnMzAtVWpyWDdTS2pHUVR3bWhsMDYzRmg5cDQxcmV0eXRKRlB3TDdoNWxsM0xYaUMyRFlpTlRyQjI0dG1NdkVEQzZNU05kbDBtQVpYdk5DdHA4b3A3cXcyNEtQSzJFVENfRnBqalZWYUx4bXF2TkxDSFdWeC1RbVZkTXJJY3Y0Vmd3ZHVsdWRNZmdYLVVCNWc3TjJB?oc=5",
       "urgente": false,
       "categoria": "Cidadania"
     },
@@ -40,19 +40,19 @@
     },
     {
       "id": "news-real-5",
-      "hora": "02:31",
-      "portal": "ND Mais",
-      "titulo": "‘Taxem os Pobres’: Costanza Peña, filha do presidente do Paraguai, incendeia crise com camiseta",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOazJyZ0hMUGk2Rmp4LXU1dFVPYUFwX3BCSGVfLS1pdzFjeVBzbDNhLTE1WE1IUkdBSUVJSGxSV29aMHdaU1dKc2R2U042U3pFTDNoLUR6TFE5RTlrRmdkbjFCdnlOVU12RDUtVFc4RTVTSzFWWHh5S1ZRMU4xYnctYXhyUktaQnhF?oc=5",
+      "hora": "11:26",
+      "portal": "Gazeta do Povo",
+      "titulo": "Veja os 10 senadores mais focados no impeachment de Moraes",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMHJWSTBNVlRGT21aUFlsTzh4Q0kwYWlLYWxWcHByQ001M1kwOW1ETkhiNDhJd3VWdXlySTM0QURNQURPMExhcC1MTHBQZVNDczBWUlZpTjJScjNSR1l2LThhZ3lGWkl0NW83WERlM3J1dWl3SUl6M3hycVA1ZmNCOHlOWFJJMFVibUx5MVR4TEI3V0M2LVF1OGRwUmFEcmFOQlJsamdFM0lZOGs0bXZwZTVSc0NwTmJNR3V1MQ?oc=5",
       "urgente": false,
       "categoria": "Cidadania"
     },
     {
       "id": "news-real-6",
-      "hora": "18:31",
-      "portal": "Partido dos Trabalhadores",
-      "titulo": "Por médicos mais preparados, Governo Lula exige aprovação no ‘OAB da Medicina’",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVk45aGVsNGpFYlZua2JCUlZBc0hlM19jcTJfVkZTTkFXa040NnQ3dThaQ0VKVmwwc0ZkbERNMzB2VE9vWFJsNmx0dGVVZG1OUzJvS0pzS0dCVFZWWUN4VHFOU09aSTAtM1Q5anZ1c1dPMmNUd1dhTXNqWExzSTZ0OW14dGs4VnhTQ1hnbHFGeFk3TWN0RDRrLXZn0gGiAUFVX3lxTE1GRmk2alB1SGxUSXhCSWFfQlByTDZQbklPWXNfTUVmaVV3MHdDek4tU296bW1wRjhmcFFOSnVoVkY2OWNCaV83THQ0OFdVdGZ0d3dsSUZMNHh3RUhETE1UUmgwYjQyX3h3WGJvN3FCVnFlalloNHFIZDZITF9Dc2RsaTM0NEpKRHg1V2xDWDRKSXVRN1ZrVXdPbHY1Vkhta0tidw?oc=5",
+      "hora": "13:31",
+      "portal": "Metrópoles",
+      "titulo": "Lula, Dr. Luizinho e Padilha festejam marco histórico na saúde",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd05TTjA3RHFjV1pnZkpka2xnSXZRMWp1THhqSGZOTFFzWnczSDR3MGhiOVJ2NzNPR01jNy1zUlMtZWpjQVlBZlJmLUZZN0VBOHFsc2tzMjlGMlh2eG9pb2dPV0ZuenJUYmF4SV9QMmdXM0tWbHc1OGl3MEFGN3pBeXpNWGJHZFVtaXAtd0FpbnY2VnlZZ2JTcDVLXzRNd3ZsT1FJNEIzWE1KWjlWaGZB?oc=5",
       "urgente": false,
       "categoria": "Cidadania"
     }
@@ -79,10 +79,10 @@
       "seguidores": "920k",
       "plataforma": "youtube",
       "url": "https://www.youtube.com/@cartacapital",
-      "status": "24h",
+      "status": "72h",
       "ultimoVideo": {
         "titulo": "A campanha por uma mulher negra no Supremo",
-        "tempoAtras": "Postou há 20 horas",
+        "tempoAtras": "Postou há 1 dia",
         "link": "https://www.youtube.com/shorts/7OSYfAPf0QA"
       }
     },
@@ -95,9 +95,9 @@
       "url": "https://www.youtube.com/@CNNBrasil",
       "status": "24h",
       "ultimoVideo": {
-        "titulo": "Eisenkot one step closer to ousting Netanyahu",
-        "tempoAtras": "Postou há 1 hora",
-        "link": "https://www.youtube.com/watch?v=Dh5Yla8p8zw"
+        "titulo": "Bodycam shows officer rescue woman from burning building",
+        "tempoAtras": "Postou há 35 min",
+        "link": "https://www.youtube.com/shorts/DZM1cw94JSw"
       }
     },
     {

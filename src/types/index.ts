@@ -78,3 +78,30 @@ export interface CanalItem {
     link: string;
   };
 }
+
+export type CampoPolitico = 'nosso' | 'deles' | 'geral';
+
+export interface AssuntoMomentoItem {
+  id: string;
+  termo: string;
+  campo: CampoPolitico;
+  redes: ('x' | 'google' | 'tiktok' | 'kwai')[];
+  volume: string;
+  velocidade: 'acelerando' | 'pico' | 'estavel';
+  contextoCurto: string;
+  contraNarrativa?: string;
+  dossieIdRef?: string;
+}
+
+export interface VideoAssuntoItem {
+  id: string;
+  tema: string;
+  titulo: string;
+  canal: string;
+  plataforma: 'youtube' | 'tiktok' | 'kwai';
+  duracao: string;
+  urlVideo: string;
+  thumbnail: string;
+  resumo: string;
+  campo: 'nosso' | 'deles';
+}

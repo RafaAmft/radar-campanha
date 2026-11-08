@@ -28,7 +28,8 @@ async function runTestSuite() {
     'src/data/mockData.ts',
     'src/data/liveFeeds.json',
     'src/components/Header.tsx',
-    'src/components/BriefingLegislativo.tsx',
+    'src/components/AssuntosDoMomento.tsx',
+    'src/components/VideosPorAssunto.tsx',
     'src/components/KitConversa.tsx',
     'src/components/DossiesMitoFato.tsx',
     'src/components/PainelAgora.tsx',
@@ -84,10 +85,11 @@ async function runTestSuite() {
   if (outExists) {
     const htmlContent = fs.readFileSync(outIndex, 'utf-8');
     assert('HTML contém título "Nexo Popular"', htmlContent.includes('Nexo Popular'));
-    assert('HTML contém âncora #acao (Pautas no Congresso)', htmlContent.includes('id="acao"'));
-    assert('HTML contém âncora #cards (Kit de Diálogo)', htmlContent.includes('id="cards"'));
-    assert('HTML contém âncora #dossies (Mito vs. Fato)', htmlContent.includes('id="dossies"'));
+    assert('HTML contém âncora #assuntos (Assuntos do Momento)', htmlContent.includes('id="assuntos"'));
     assert('HTML contém âncora #agora (Imprensa)', htmlContent.includes('id="agora"'));
+    assert('HTML contém âncora #videos (Vídeos por Assunto)', htmlContent.includes('id="videos"'));
+    assert('HTML contém âncora #dossies (Raio-X da Mentira)', htmlContent.includes('id="dossies"'));
+    assert('HTML contém âncora #cards (Kit de Diálogo)', htmlContent.includes('id="cards"'));
     assert('HTML contém âncora #canais (Canais)', htmlContent.includes('id="canais"'));
     assert('HTML contém metatag theme-color (#059669)', htmlContent.includes('content="#059669"'));
     assert('HTML contém menção à consulta pública do Senado (e-Cidadania)', htmlContent.includes('ecidadania'));
