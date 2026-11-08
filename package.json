@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "test": "node scripts/test-suite.mjs",
     "update-feeds": "node scripts/update-feeds.mjs",
     "build": "node scripts/update-feeds.mjs && next build",
     "deploy": "node scripts/update-feeds.mjs && next build && wrangler pages deploy out --project-name=radar-campanha --branch=main",
